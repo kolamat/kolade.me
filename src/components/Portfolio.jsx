@@ -9,7 +9,7 @@ import twoIphones from "../assets/two-iphones.PNG";
 function Portfolio() {
   return (
     <div>
-      <h2 className="text-white text-[4rem] text-center font-bold py-1">
+      <h2 className="text-white text-[2.8rem] text-center font-bold py-1">
         Latests <span className="text-[#0ef]">Project</span>
       </h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-auto gap-5 box-border py-11 px-4 object-contain">
