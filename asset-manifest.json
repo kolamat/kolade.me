@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/js_portfolio/static/css/main.5bc4bd1c.css",
+    "main.js": "/js_portfolio/static/js/main.f1fd83d3.js",
+    "static/media/laptop-card.PNG": "/js_portfolio/static/media/laptop-card.e08be554d855ce742318.PNG",
+    "static/media/Makeup.PNG": "/js_portfolio/static/media/Makeup.96e19b607e6c710d1167.PNG",
+    "static/media/two-iphones.PNG": "/js_portfolio/static/media/two-iphones.6b96a2d277d70fa7438f.PNG",
+    "static/media/kolade1.jpg": "/js_portfolio/static/media/kolade1.e6d2736f40101a158f67.jpg",
+    "static/media/Mok.jpg": "/js_portfolio/static/media/Mok.62834e1694e75e8757c2.jpg",
+    "static/media/mok-logo2.PNG": "/js_portfolio/static/media/mok-logo2.0aa0ca8ed58278e1479a.PNG",
+    "static/media/mok-logo.PNG": "/js_portfolio/static/media/mok-logo.cb8249f8a7341f15df9a.PNG",
+    "static/media/kolade.jpg": "/js_portfolio/static/media/kolade.af523118c4a06b13c87c.jpg",
+    "index.html": "/js_portfolio/index.html",
+    "main.5bc4bd1c.css.map": "/js_portfolio/static/css/main.5bc4bd1c.css.map",
+    "main.f1fd83d3.js.map": "/js_portfolio/static/js/main.f1fd83d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bc4bd1c.css",
+    "static/js/main.f1fd83d3.js"
+  ]
+}

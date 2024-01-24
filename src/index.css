@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000300;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.divfont {
+  font-family: "Playfair Display", serif;
+}
+
+#root {
+  font-family: "Bebas Neue", sans-serif;
+}
