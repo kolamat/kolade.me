@@ -7,7 +7,7 @@ function about() {
     <div className="flex flex-col justify-center mx-3">
       <div className="grid md:grid-cols-2 text-white py-16 px-1">
         <div className="flex flex-col justify-center mx-3">
-          <h1 className="lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-bold py-2">
+          <h1 className=" text-[.2.8rem] sm:text-4xl text-3xl font-bold py-2">
             About <span className="text-[#0ef] underline">Me</span>
           </h1>
           <h3 className=" text-[25px] font-bold">Frontend Developer</h3>
