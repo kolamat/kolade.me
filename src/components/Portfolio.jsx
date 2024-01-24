@@ -14,32 +14,32 @@ function Portfolio() {
       </h2>
       <div className="grid auto-cols-auto md:grid-cols-3 sm:grid-cols-2 mx-auto gap-5 box-border py-11 px-4">
         <img
-          className="mx-auto my-4 rounded-2xl object-cover"
+          className="mx-auto rounded-2xl object-fit"
           src={mokLogo}
           alt="Kolade"
         />
         <img
-          className="mx-auto my-4 rounded-2xl object-cover"
+          className="mx-auto rounded-2xl object-fit"
           src={Mok}
           alt="Kolade"
         />
         <img
-          className="mx-auto my-4 rounded-2xl object-cover"
+          className="mx-auto rounded-2xl object-fit"
           src={twoIphones}
           alt="Kolade"
         />
         <img
-          className="mx-auto my-4 rounded-2xl object-cover"
+          className="mx-auto rounded-2xl object-fit"
           src={mokLogo2}
           alt="Kolade"
         />
         <img
-          className="mx-auto my-4 rounded-2xl object-cover"
+          className="mx-auto rounded-2xl object-fit"
           src={laptopCard}
           alt="Kolade"
         />
         <img
-          className="mx-auto my-4 rounded-2xl object-cover"
+          className="mx-auto rounded-2xl object-fit"
           src={makeUp}
           alt="Kolade"
         />
