@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="grid">
       <div className="px-4">
-        <h2 className="text-white text-[4rem] text-center font-bold py-1">
+        <h2 className="text-white text-[2.8rem] text-center font-bold py-1">
           Contact <span className="text-[#0ef]">Me</span>
         </h2>
 
