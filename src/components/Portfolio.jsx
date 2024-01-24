@@ -13,21 +13,33 @@ function Portfolio() {
         Latests <span className="text-[#0ef]">Project</span>
       </h2>
       <div className="grid auto-cols-auto md:grid-cols-3 sm:grid-cols-2 mx-auto gap-5 box-border py-11 px-4">
-        <img className="mx-auto my-4 rounded-2xl" src={mokLogo} alt="Kolade" />
-        <img className="mx-auto my-4 rounded-2xl" src={Mok} alt="Kolade" />
         <img
-          className="mx-auto my-4 rounded-2xl"
+          className="mx-auto my-4 rounded-2xl object-cover"
+          src={mokLogo}
+          alt="Kolade"
+        />
+        <img
+          className="mx-auto my-4 rounded-2xl object-cover"
+          src={Mok}
+          alt="Kolade"
+        />
+        <img
+          className="mx-auto my-4 rounded-2xl object-cover"
           src={twoIphones}
           alt="Kolade"
         />
-        <img className="mx-auto my-4 rounded-2xl" src={mokLogo2} alt="Kolade" />
         <img
-          className="mx-auto my-4 rounded-2xl"
+          className="mx-auto my-4 rounded-2xl object-cover"
+          src={mokLogo2}
+          alt="Kolade"
+        />
+        <img
+          className="mx-auto my-4 rounded-2xl object-cover"
           src={laptopCard}
           alt="Kolade"
         />
         <img
-          className="mx-auto my-4 rounded-2xl w-[100%] h-[90%]"
+          className="mx-auto my-4 rounded-2xl object-cover"
           src={makeUp}
           alt="Kolade"
         />
