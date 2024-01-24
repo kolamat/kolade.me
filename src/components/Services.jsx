@@ -6,7 +6,7 @@ import { FaCode } from "react-icons/fa";
 function Services() {
   return (
     <div className="w-full text-white py-[7rem] px-4">
-      <h1 className="lg:text-[50px] md:text-5xl sm:text-4xl w-full text-3xl font-bold flex items-center justify-center gap-2 mb-6">
+      <h1 className=" text-[2.8rem] w-full text-3xl font-bold flex items-center justify-center gap-2 mb-6">
         My<span className="text-[#0ef] underline">Services</span>
       </h1>
       {/* mx-auto grid md:grid-cols-3 gap-8 items-center */}
