@@ -116,7 +116,7 @@ const hero = () => {
               <Typed
                 strings={["Frontend-Engineer", "Blogger", "Gamer"]}
                 startDelay={5000}
-                typeSpeed={200}
+                typeSpeed={100}
                 backSpeed={130}
                 cursorChar={"."}
                 loop={false}
