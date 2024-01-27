@@ -182,7 +182,7 @@ const hero = () => {
             </a>
           </div>
           <a
-            className=" font-bold w-[98px] rounded-lg bg-[#0ef] p-1 text-xl text-center text-black hover:text-white hover:bg-slate-900 hover:opacity-100 hover:translate-y-2"
+            className=" font-bold w-[98px] rounded-lg bg-[#0ef] p-1 text-xl text-center text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-y-2"
             //   kolamat.github.io/resuming/
             href="#home"
             target="_blank"
