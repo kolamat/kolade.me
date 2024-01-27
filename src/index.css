@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@tailwind base;
+/* @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap")
+  @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
