@@ -40,7 +40,7 @@ function Services() {
             Read More
           </a>
         </div>
-        <div className=" flex flex-col items-center border lg:col-span-1 md:col-span-2 p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400 hover:shadow-[0 0.5rem 1rem rgba(0, 0, 0, 0.2)]">
+        <div className=" flex flex-col items-center border lg:col-span-1 md:col-span-2 p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaChartBar size={42} />
             Digital Marketing
@@ -51,7 +51,7 @@ function Services() {
             companies to approach consumers and understand their behavior.
           </p>
           <a
-            className=" font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black flex flex-col"
+            className=" font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black flex flex-col hover:shadow-inner hover:shadow-yellow-200"
             href="/"
           >
             Read More
