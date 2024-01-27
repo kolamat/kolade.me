@@ -11,7 +11,7 @@ function Services() {
       </h1>
       {/* mx-auto grid md:grid-cols-3 gap-8 items-center */}
       <div className="grid grid-cols-auto lg:grid-cols-3 gap-4">
-        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400 hover:ease-linear">
+        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaCode size={42} />
             Web Developer
@@ -24,7 +24,7 @@ function Services() {
             <a href="/">Read More</a>
           </button>
         </div>
-        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%]">
+        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaPaintRoller size={42} />
             Graphic Design
@@ -40,7 +40,7 @@ function Services() {
             Read More
           </a>
         </div>
-        <div className=" flex flex-col items-center border lg:col-span-1 md:col-span-2 p-4  justify-between rounded-[15px] w-[100%]">
+        <div className=" flex flex-col items-center border lg:col-span-1 md:col-span-2 p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400 shadow-lg">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaChartBar size={42} />
             Digital Marketing
