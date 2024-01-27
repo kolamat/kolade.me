@@ -20,7 +20,7 @@ function Services() {
             a web developer's job is to use the basic building blocks of the web
             ( like HTML, CSS and JavaScript ) to create something complex.
           </p>
-          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black">
+          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900">
             <a href="/">Read More</a>
           </button>
         </div>
@@ -33,12 +33,9 @@ function Services() {
             Graphic design is a craft where professionals create visual content
             to communicate messages. Lorem ipsum dolor.
           </p>
-          <a
-            className=" font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black"
-            href="/"
-          >
-            Read More
-          </a>
+          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900">
+            <a href="/">Read More</a>
+          </button>
         </div>
         <div className=" flex flex-col items-center border lg:col-span-1 md:col-span-2 p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
@@ -50,12 +47,9 @@ function Services() {
             traditional Marketing and is often considered an additional way for
             companies to approach consumers and understand their behavior.
           </p>
-          <a
-            className=" font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black flex flex-col hover:text-white hover:bg-blue-500"
-            href="/"
-          >
-            Read More
-          </a>
+          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900">
+            <a href="/">Read More</a>
+          </button>
         </div>
       </div>
     </div>
