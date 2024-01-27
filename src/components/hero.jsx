@@ -136,7 +136,7 @@ const hero = () => {
           </p>
           <div className="flex gap-5 my-5">
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black"
+              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900"
               href="https://twitter.com/koladeMOK"
               target="_blank"
               rel="noopener noreferrer"
@@ -145,7 +145,7 @@ const hero = () => {
               <FaXTwitter size={20} />
             </a>
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black"
+              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900"
               href="https://www.facebook.com/kolade.matanmi.92"
               target="_blank"
               rel="noopener noreferrer"
@@ -154,7 +154,7 @@ const hero = () => {
               <FaFacebook size={20} />
             </a>
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black"
+              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900"
               href="https://www.instagram.com/matiness200/"
               target="_blank"
               rel="noopener noreferrer"
@@ -163,7 +163,7 @@ const hero = () => {
               <FaInstagram size={20} />
             </a>
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black"
+              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900"
               href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
               target="_blank"
               rel="noopener noreferrer"
@@ -172,7 +172,7 @@ const hero = () => {
               <FaLinkedin size={20} />
             </a>
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black"
+              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900"
               href="https://github.com/kolamat"
               target="_blank"
               rel="noopener noreferrer"
@@ -182,7 +182,7 @@ const hero = () => {
             </a>
           </div>
           <a
-            className=" font-bold w-[98px] rounded-lg bg-[#0ef] p-1 text-xl text-center text-black"
+            className=" font-bold w-[98px] rounded-lg bg-[#0ef] p-1 text-xl text-center text-black hover:text-white hover:bg-slate-900"
             //   kolamat.github.io/resuming/
             href="#home"
             target="_blank"
