@@ -6,15 +6,13 @@
 
 body {
   background-color: #000300;
-  /* font-family: "Bebas Neue", sans-serif; */
-  font-family: "Cinzel", serif;
+  font-family: "Exo", sans-serif;
 }
 
-.divfont {
-  font-family: "Playfair Display", serif;
+.divfnt {
+  font-family: "Exo", sans-serif;
 }
 
 #root {
-  /* font-family: "Bebas Neue", sans-serif; */
-  font-family: "Cinzel", serif;
+  font-family: "Exo", sans-serif;
 }
