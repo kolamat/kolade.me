@@ -20,7 +20,7 @@ function about() {
           </p>
           <a
             href="/"
-            className=" font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black"
+            className=" font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900"
           >
             Read More
           </a>
