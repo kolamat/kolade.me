@@ -11,7 +11,7 @@ function Services() {
       </h1>
       {/* mx-auto grid md:grid-cols-3 gap-8 items-center */}
       <div className="grid grid-cols-auto lg:grid-cols-3 gap-4">
-        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400 shadow-2xl">
+        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaCode size={42} />
             Web Developer
@@ -24,7 +24,7 @@ function Services() {
             <a href="/">Read More</a>
           </button>
         </div>
-        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400 shadow-2xl">
+        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaPaintRoller size={42} />
             Graphic Design
@@ -51,7 +51,7 @@ function Services() {
             companies to approach consumers and understand their behavior.
           </p>
           <a
-            className=" font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black flex flex-col hover:shadow-inner hover:shadow-yellow-200"
+            className=" font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black flex flex-col hover:text-white hover:bg-blue-500"
             href="/"
           >
             Read More
