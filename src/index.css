@@ -6,7 +6,7 @@
 
 body {
   background-color: #000300;
-  font-family: "Bebas Neue", sans-serif;
+  /* font-family: "Bebas Neue", sans-serif; */
 }
 
 .divfont {
@@ -14,5 +14,5 @@ body {
 }
 
 #root {
-  font-family: "Bebas Neue", sans-serif;
+  /* font-family: "Bebas Neue", sans-serif; */
 }
