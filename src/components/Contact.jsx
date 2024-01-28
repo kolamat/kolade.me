@@ -14,7 +14,7 @@ export const Contact = () => {
         "service_0drhrzb",
         "template_8kh7dbx",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "npnaHfb_xcrNgdhAO"
       )
       .then(
         (result) => {
