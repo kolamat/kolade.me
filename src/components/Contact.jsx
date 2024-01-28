@@ -12,7 +12,7 @@ export const Contact = () => {
     emailjs
       .sendForm(
         "service_0drhrzb",
-        "YOUR_TEMPLATE_ID",
+        "template_8kh7dbx",
         form.current,
         "YOUR_PUBLIC_KEY"
       )
