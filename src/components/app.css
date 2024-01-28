@@ -97,12 +97,11 @@ form {
 }
 
 input {
-  width: 300px;
+  width: 550px;
   height: 35px;
   padding: 7px;
   outline: none;
   border-radius: 5px;
-  margin-left: 30px;
   border: 1px solid rgb(220, 220, 220);
 
   &:focus {
