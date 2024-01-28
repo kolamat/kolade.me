@@ -11,7 +11,7 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
+        "service_0drhrzb",
         "YOUR_TEMPLATE_ID",
         form.current,
         "YOUR_PUBLIC_KEY"
