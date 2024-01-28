@@ -110,7 +110,7 @@ input {
 }
 
 textarea {
-  width: 100%;
+  width: 500px;
   max-height: 100px;
   min-height: 100px;
   padding: 7px;
