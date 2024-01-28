@@ -34,21 +34,23 @@ export const Contact = () => {
       <h1 className=" text-[2.8rem] sm:text-4xl text-white text-center text-3xl font-bold py-2">
         Contact <span className="text-[#0ef] underline">Me</span>
       </h1>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
-      <div>
-        <img
-          //   className="w-[300px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end"
-          src={kolade}
-          alt="Kolade"
-        />
+      <div className="flex">
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+        </form>
+        <div>
+          <img
+            //   className="w-[300px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end"
+            src={kolade}
+            alt="Kolade"
+          />
+        </div>
       </div>
     </div>
   );
