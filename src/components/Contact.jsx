@@ -35,7 +35,7 @@ export const Contact = () => {
         Contact <span className="text-[#0ef] underline">Me</span>
       </h1>
       <div className="grid md:flex">
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} className=" md:items-start">
           <label>Name</label>
           <input type="text" name="user_name" />
           <label>Email</label>
