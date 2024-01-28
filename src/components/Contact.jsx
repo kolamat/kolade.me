@@ -19,11 +19,11 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("Message Sent");
+          alert("Message Sent");
         },
         (error) => {
           console.log(error.text);
-          console.log("Message Not Sent");
+          alert("Message Not Sent");
         }
       );
   };
