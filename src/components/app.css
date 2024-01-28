@@ -136,4 +136,6 @@ input[type="submit"] {
   background: #0ef;
   color: white;
   border: none;
+  width: 0;
+  align-self: center;
 }
