@@ -131,6 +131,7 @@ label {
 
 input[type="submit"] {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   cursor: pointer;
   background: #0ef;
   color: white;
