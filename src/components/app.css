@@ -136,9 +136,3 @@ input[type="submit"] {
   color: white;
   border: none;
 }
-
-alert {
-  padding: 20px;
-  background-color: #f44336;
-  color: white;
-}
