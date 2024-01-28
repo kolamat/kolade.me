@@ -45,8 +45,8 @@ export const Contact = () => {
             placeholder="Email: M***********"
           />
           <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" placeholder="Email Subject" />
+          <textarea name="message" placeholder="Email Subject" />
+          <input type="submit" value="Send" />
         </form>
         <div>
           <img
