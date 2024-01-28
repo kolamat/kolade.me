@@ -1,6 +1,7 @@
 // import React from "react";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+
 import style from "./app.css";
 
 export const Contact = () => {
@@ -42,6 +43,9 @@ export const Contact = () => {
         <textarea name="message" />
         <input type="submit" value="Send" />
       </form>
+      <div>
+        <img src="" alt="" />
+      </div>
     </div>
   );
 };
