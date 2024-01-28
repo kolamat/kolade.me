@@ -46,7 +46,7 @@ export const Contact = () => {
           />
           <label>Message</label>
           <textarea name="message" />
-          <input type="submit" value="Send" />
+          <input type="submit" value="Send" placeholder="Email Subject" />
         </form>
         <div>
           <img
