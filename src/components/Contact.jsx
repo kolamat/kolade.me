@@ -50,7 +50,7 @@ export const Contact = () => {
         </form>
         <div>
           <img
-            className="w-[300px] lg:w-[500px] lg:mx-10 mx-auto my-4 rounded-2xl self-start justify-self-start"
+            className="w-[300px] lg:w-[500px] lg:mx-10 mx-auto my-4 rounded-2xl justify-self-start"
             src={kolade}
             alt="Kolade"
           />
