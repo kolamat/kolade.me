@@ -1,7 +1,7 @@
 // import React from "react";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import kolade from "../assets/kolade.jpg";
+import kolade from "../assets/window-logo.jpg";
 import style from "./app.css";
 
 export const Contact = () => {
@@ -50,7 +50,7 @@ export const Contact = () => {
         </form>
         <div>
           <img
-            className="w-[300px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl"
+            className="w-[300px] lg:w-[500px] lg:mx-10 mx-auto my-4 rounded-2xl"
             src={kolade}
             alt="Kolade"
           />

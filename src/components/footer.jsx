@@ -4,10 +4,10 @@ import React from "react";
 function footer() {
   return (
     <div classname="w-full">
-      <hr className="h-1 bg-[#0ef] rounded-sm w-full" />
+      <hr className="h-1 bg-[#0ef] rounded-sm" />
       <div className=" text-white flex justify-between px-5 py-2 tracking-wide">
         <div>
-          <p>
+          <p className="block">
             Copyright &copy; 2023 by&nbsp;
             <strong>
               <span>M.J.K</span>
