@@ -134,6 +134,6 @@ input[type="submit"] {
   color: white;
   border: none;
   width: 100px;
-  /* margin: auto; */
+  margin: auto;
   margin-bottom: 10px;
 }
