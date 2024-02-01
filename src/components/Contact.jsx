@@ -4,7 +4,6 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import kolade from "../assets/window-logo.jpg";
 import style from "./app.css";
-import ReactTyped from "react-typed";
 
 export const Contact = () => {
   const form = useRef();
@@ -34,21 +33,7 @@ export const Contact = () => {
   return (
     <div>
       <h1 className=" text-[2.8rem] sm:text-4xl text-white text-center text-3xl font-bold py-2">
-        <ReactTyped
-          backSpeed={50}
-          startDelay={5000}
-          typeSpeed={50}
-          //   backSpeed={150}
-          cursorChar={"."}
-          loop={false}
-          shuffle
-          startWhenVisible
-          strings={[
-            "Contact <span className='text-[#0ef] underline'>Me</span>",
-          ]}
-          //   typeSpeed={50}
-          //   typedRef={function noRefCheck() {}}
-        />
+        Contact <span className="text-[#0ef] underline">Me</span>
       </h1>
       <div className="grid md:flex gap-4 items-center">
         <form
