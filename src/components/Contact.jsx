@@ -48,12 +48,11 @@ export const Contact = () => {
           onTypingResumed={function noRefCheck() {}}
           startWhenVisible
           strings={[
-            "If <strong>startWhenVisible</strong> is <strong>true</strong>, will start when is visible in the dom",
+            "Contact <span className='text-[#0ef] underline'>Me</span>",
           ]}
           typeSpeed={50}
           typedRef={function noRefCheck() {}}
         />
-        Contact <span className="text-[#0ef] underline">Me</span>
       </h1>
       <div className="grid md:flex gap-4 items-center">
         <form
