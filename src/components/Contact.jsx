@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import kolade from "../assets/window-logo.jpg";
 import style from "./app.css";
+import ReactTyped from "react-typed";
 
 export const Contact = () => {
   const form = useRef();
@@ -33,23 +34,25 @@ export const Contact = () => {
   return (
     <div>
       <h1 className=" text-[2.8rem] sm:text-4xl text-white text-center text-3xl font-bold py-2">
-        backSpeed={50}
-        onBegin={function noRefCheck() {}}
-        onComplete={function noRefCheck() {}}
-        onDestroy={function noRefCheck() {}}
-        onLastStringBackspaced={function noRefCheck() {}}
-        onReset={function noRefCheck() {}}
-        onStart={function noRefCheck() {}}
-        onStop={function noRefCheck() {}}
-        onStringTyped={function noRefCheck() {}}
-        onTypingPaused={function noRefCheck() {}}
-        onTypingResumed={function noRefCheck() {}}
-        startWhenVisible strings=
-        {[
-          "If <strong>startWhenVisible</strong> is <strong>true</strong>, will start when is visible in the dom",
-        ]}
-        typeSpeed={50}
-        typedRef={function noRefCheck() {}}
+        <ReactTyped
+          backSpeed={50}
+          onBegin={function noRefCheck() {}}
+          onComplete={function noRefCheck() {}}
+          onDestroy={function noRefCheck() {}}
+          onLastStringBackspaced={function noRefCheck() {}}
+          onReset={function noRefCheck() {}}
+          onStart={function noRefCheck() {}}
+          onStop={function noRefCheck() {}}
+          onStringTyped={function noRefCheck() {}}
+          onTypingPaused={function noRefCheck() {}}
+          onTypingResumed={function noRefCheck() {}}
+          startWhenVisible
+          strings={[
+            "If <strong>startWhenVisible</strong> is <strong>true</strong>, will start when is visible in the dom",
+          ]}
+          typeSpeed={50}
+          typedRef={function noRefCheck() {}}
+        />
         Contact <span className="text-[#0ef] underline">Me</span>
       </h1>
       <div className="grid md:flex gap-4 items-center">
