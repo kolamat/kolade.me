@@ -129,10 +129,13 @@ label {
 }
 
 input[type="submit"] {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   cursor: pointer;
   background: #0ef;
   color: white;
   border: none;
   width: 100px;
-  margin: 5px 20x 10px 10px;
+  /* margin: auto; */
+  margin-bottom: 10px;
 }
