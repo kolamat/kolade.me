@@ -36,22 +36,18 @@ export const Contact = () => {
       <h1 className=" text-[2.8rem] sm:text-4xl text-white text-center text-3xl font-bold py-2">
         <ReactTyped
           backSpeed={50}
-          onBegin={function noRefCheck() {}}
-          onComplete={function noRefCheck() {}}
-          onDestroy={function noRefCheck() {}}
-          onLastStringBackspaced={function noRefCheck() {}}
-          onReset={function noRefCheck() {}}
-          onStart={function noRefCheck() {}}
-          onStop={function noRefCheck() {}}
-          onStringTyped={function noRefCheck() {}}
-          onTypingPaused={function noRefCheck() {}}
-          onTypingResumed={function noRefCheck() {}}
+          startDelay={5000}
+          typeSpeed={50}
+          //   backSpeed={150}
+          cursorChar={"."}
+          loop={false}
+          shuffle
           startWhenVisible
           strings={[
             "Contact <span className='text-[#0ef] underline'>Me</span>",
           ]}
-          typeSpeed={50}
-          typedRef={function noRefCheck() {}}
+          //   typeSpeed={50}
+          //   typedRef={function noRefCheck() {}}
         />
       </h1>
       <div className="grid md:flex gap-4 items-center">
