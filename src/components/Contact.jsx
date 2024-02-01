@@ -33,6 +33,23 @@ export const Contact = () => {
   return (
     <div>
       <h1 className=" text-[2.8rem] sm:text-4xl text-white text-center text-3xl font-bold py-2">
+        backSpeed={50}
+        onBegin={function noRefCheck() {}}
+        onComplete={function noRefCheck() {}}
+        onDestroy={function noRefCheck() {}}
+        onLastStringBackspaced={function noRefCheck() {}}
+        onReset={function noRefCheck() {}}
+        onStart={function noRefCheck() {}}
+        onStop={function noRefCheck() {}}
+        onStringTyped={function noRefCheck() {}}
+        onTypingPaused={function noRefCheck() {}}
+        onTypingResumed={function noRefCheck() {}}
+        startWhenVisible strings=
+        {[
+          "If <strong>startWhenVisible</strong> is <strong>true</strong>, will start when is visible in the dom",
+        ]}
+        typeSpeed={50}
+        typedRef={function noRefCheck() {}}
         Contact <span className="text-[#0ef] underline">Me</span>
       </h1>
       <div className="grid md:flex gap-4 items-center">
