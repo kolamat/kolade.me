@@ -31,7 +31,7 @@ export const Contact = () => {
   };
 
   return (
-    <div>
+    <div className=" p-16">
       <h1 className=" text-[2.8rem] sm:text-4xl text-white text-center text-3xl font-bold py-2">
         Contact <span className="text-[#0ef] underline">Me</span>
       </h1>
