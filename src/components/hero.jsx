@@ -196,6 +196,7 @@ const hero = () => {
           className="w-[300px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end"
           src={kolade}
           alt="Kolade"
+          loading="lazy"
         />
       </div>
     </div>
