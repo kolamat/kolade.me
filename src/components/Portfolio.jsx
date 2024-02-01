@@ -25,7 +25,12 @@ function Portfolio() {
           alt="Kolade"
           loading="lazy"
         />
-        <img className=" rounded-2xl h-96 w-96" src={mokLogo2} alt="Kolade" />
+        <img
+          className=" rounded-2xl h-96 w-96"
+          src={mokLogo2}
+          alt="Kolade"
+          loading="lazy"
+        />
         <img className=" rounded-2xl h-96 w-96" src={laptopCard} alt="Kolade" />
         <img className=" rounded-2xl h-96 w-96" src={makeUp} alt="Kolade" />
       </div>
