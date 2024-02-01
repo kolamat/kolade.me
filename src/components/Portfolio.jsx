@@ -37,7 +37,12 @@ function Portfolio() {
           alt="Kolade"
           loading="lazy"
         />
-        <img className=" rounded-2xl h-96 w-96" src={makeUp} alt="Kolade" />
+        <img
+          className=" rounded-2xl h-96 w-96"
+          src={makeUp}
+          alt="Kolade"
+          loading="lazy"
+        />
       </div>
     </div>
   );
