@@ -29,6 +29,7 @@ function about() {
           className="w-[300px] lg:m-0 lg:w-[500px] my-4 rounded-2xl mx-auto place-self-end"
           src={kolade1}
           alt="still Kolade"
+          loading="lazy"
         />
       </div>
     </div>
