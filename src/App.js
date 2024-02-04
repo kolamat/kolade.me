@@ -11,9 +11,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <>
-        <Hero />
-      </>
+      <Hero />
       <About />
       <Services />
       <Portfolio />
