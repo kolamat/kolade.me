@@ -10,7 +10,7 @@ function Services() {
         My<span className="text-[#0ef] underline">Services</span>
       </h1>
       {/* mx-auto grid md:grid-cols-3 gap-8 items-center */}
-      <div className="grid grid-cols-auto lg:grid-cols-3 gap-4">
+      <div className="grid lg:grid-cols-3 gap-4">
         <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaCode size={42} />
