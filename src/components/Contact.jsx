@@ -32,7 +32,7 @@ export const Contact = () => {
 
   return (
     <div className=" p-16">
-      <h1 className=" text-[2.8rem] sm:text-4xl text-white text-center text-3xl font-bold py-2">
+      <h1 className=" text-[2.8rem] sm:text-4xl text-black text-center text-3xl font-bold py-2">
         Contact <span className="text-[#0ef] underline">Me</span>
       </h1>
       <div className="grid md:flex gap-4 items-center">
@@ -54,7 +54,7 @@ export const Contact = () => {
           <input
             type="submit"
             value="Send"
-            className="hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-[0.5s,ease] hover:translate-x-2 delay-75 text-black"
+            className="hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-[0.5s,ease] hover:translate-x-2 delay-75"
           />
         </form>
         <div>
