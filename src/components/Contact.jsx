@@ -51,7 +51,11 @@ export const Contact = () => {
           />
           <label>Message</label>
           <textarea name="message" placeholder="Email Subject" />
-          <input type="submit" value="Send" />
+          <input
+            type="submit"
+            value="Send"
+            className="hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-[0.5s,ease] hover:translate-x-2 delay-75"
+          />
         </form>
         <div>
           <img
