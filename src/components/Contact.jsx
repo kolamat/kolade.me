@@ -54,7 +54,7 @@ export const Contact = () => {
           <input
             type="submit"
             value="Send"
-            className="hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-[0.5s,ease] hover:translate-x-2 delay-75"
+            className="hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:text-white hover:transition-[0.5s,ease] hover:translate-x-2 delay-75"
           />
         </form>
         <div>
