@@ -20,7 +20,7 @@ function Services() {
             a web developer's job is to use the basic building blocks of the web
             ( like HTML, CSS and JavaScript ) to create something complex.
           </p>
-          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-transform hover:translate-x-2 delay-[3000s]">
+          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-transform hover:translate-x-2 delay-[1m]">
             <a href="/">Read More</a>
           </button>
         </div>
@@ -33,7 +33,7 @@ function Services() {
             Graphic design is a craft where professionals create visual content
             to communicate messages. Lorem ipsum dolor.
           </p>
-          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-transform hover:translate-x-2 delay-[3000s]">
+          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-transform hover:translate-x-2 delay-[1m]">
             <a href="/">Read More</a>
           </button>
         </div>
@@ -47,7 +47,7 @@ function Services() {
             traditional Marketing and is often considered an additional way for
             companies to approach consumers and understand their behavior.
           </p>
-          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-transform hover:translate-x-2 delay-[3000s]">
+          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-transform hover:translate-x-2 delay-[1m]">
             <a href="/">Read More</a>
           </button>
         </div>
