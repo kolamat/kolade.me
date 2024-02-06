@@ -33,7 +33,7 @@ function Services() {
             Graphic design is a craft where professionals create visual content
             to communicate messages. Lorem ipsum dolor.
           </p>
-          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-[0.5s,ease] hover:translate-x-2 delay-">
+          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 hover:transition-[0.5s,ease] hover:translate-x-2 delay-150">
             <a href="/">Read More</a>
           </button>
         </div>
