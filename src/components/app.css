@@ -134,7 +134,7 @@ input[type="submit"] {
   cursor: pointer;
   background: #0ef;
   color: black;
-  font: bolder;
+  font: 500;
   border: none;
   width: 100px;
   margin: auto;
