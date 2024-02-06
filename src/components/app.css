@@ -99,7 +99,6 @@ form {
 input {
   width: 550px;
   height: 35px;
-  font-size: larger;
   padding: 7px;
   outline: none;
   border-radius: 5px;
@@ -139,4 +138,5 @@ input[type="submit"] {
   width: 100px;
   margin: auto;
   margin-bottom: 10px;
+  font-size: larger;
 }
