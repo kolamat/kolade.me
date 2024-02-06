@@ -49,7 +49,7 @@ export const Contact = () => {
             name="user_email"
             placeholder="Email: M***********"
           />
-          {/* <label>Message</label> */}
+          <label>Message</label>
           <textarea name="message" placeholder="Email Subject" />
           <input
             type="submit"
