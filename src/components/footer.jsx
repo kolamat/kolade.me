@@ -4,7 +4,7 @@ import React from "react";
 function footer() {
   return (
     <div classname="w-full">
-      <div className="h-1 bg-[#0ef] rounded-sm">
+      <div className="h-1 bg-[#0ef] rounded-sm flex">
         <span className="bg-[#fff] w-"></span>
         <span className="bg-[#000] w-"></span>
         <span className="bg-[#fff] w-"></span>
