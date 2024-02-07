@@ -4,7 +4,7 @@ import React from "react";
 function footer() {
   return (
     <div classname="w-full">
-      <div className="h-3 bg-[#0ef] rounded-sm flex" />
+      <div className="h-[5px] bg-[#0ef] rounded-sm flex" />
       <div className=" text-white flex justify-between px-5 py-2 tracking-wide">
         <div>
           <p className="block">
