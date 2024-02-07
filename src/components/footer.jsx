@@ -5,7 +5,7 @@ function footer() {
   return (
     <div classname="w-full">
       <div className="h-1 bg-[#0ef] rounded-sm">
-        <span></span>
+        <span className="bg-[#fff] w-full"></span>
       </div>
       <div className=" text-white flex justify-between px-5 py-2 tracking-wide">
         <div>
