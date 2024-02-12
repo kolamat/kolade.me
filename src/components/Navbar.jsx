@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
+let kolade;
 
 const Navbar = () => {
   const [nav, setNav] = useState();
