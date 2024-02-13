@@ -112,5 +112,6 @@
   }
   "include":[ 
   "src", 
-  "public"]
+  "public"
+]
 }
