@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-auto">
-      <div className="fixed flex top-0 left-0 bg-slate-900 justify-between items-center h-24 text-white mx-auto px-4 w-full">
+    <div className="w-auto ">
+      <div className="fixed top-0 z-30 w-full py-6 flex top- left-0 bg-slate-900 justify-between items-center h-24 text-white mx-auto px-4 w-">
         <h1 className="w-full text-4xl font-bold text-[#00df9a]">Portfolio</h1>
         <ul className="hidden md:flex font-bold text-xl">
           <li className="p-4">Home</li>
