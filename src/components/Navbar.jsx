@@ -40,7 +40,7 @@ const Navbar = () => {
           />
         </svg>
 
-        <h1 className="w-full text-4xl font-bold text-[#00df9a]">Portfolio</h1>
+        <h1 className="w-full text-4xl font-bold text-[#147bf9]">Portfolio</h1>
       </div>
       <ul className="hidden md:flex font-bold text-xl">
         <li className="p-4">Home</li>
