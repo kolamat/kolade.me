@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import laptopCard from "../assets/laptop-card.PNG";
 import makeUp from "../assets/Makeup.PNG";
 import mokLogo from "../assets/mok-logo.PNG";
@@ -8,7 +8,7 @@ import twoIphones from "../assets/two-iphones.PNG";
 
 function Portfolio() {
   return (
-    <div className=" md:items-center">
+    <div className=" md:items-center m-auto">
       <h2 className="text-white text-[2.8rem] text-center font-bold py-1">
         Latests <span className="text-[#0ef]">Project</span>
       </h2>
