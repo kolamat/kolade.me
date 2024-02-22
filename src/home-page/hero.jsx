@@ -8,7 +8,7 @@ import kolade from "../assets/kolade.jpg";
 
 const hero = () => {
   return (
-    <div className="md:w-full w-auto text-white bg-[#000300] pt-24 pb-16 px-1">
+    <div className="mx-auto text-white bg-[#000300] pt-24 pb-16 px-1">
       <div className="mx-auto grid md:grid-cols-2">
         <div className="flex flex-col justify-center mx-3">
           <h3 className="font-bold text-3xl">Hello, it's me</h3>
