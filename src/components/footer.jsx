@@ -6,15 +6,6 @@ function footer() {
     <div classname="w-full">
       <div className="h-[1px] bg-[#0ef] rounded-sm flex self-center" />
       <div className=" text-white flex justify-between px-5 py-2 tracking-wide">
-        <div>
-          <p className="block">
-            Copyright &copy; 2023 by&nbsp;
-            <strong>
-              <span>M.J.K</span>
-            </strong>
-            &nbsp; All Rights Reserved.
-          </p>
-        </div>
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
           <div className="mt-16 basis-1/2 md:mt-0">
             {/* <img src={logo} alt="logo" /> */}
@@ -37,7 +28,7 @@ function footer() {
               ever since the 1500s, when an unknown printer took a gallery of
               type and scrambled it to make a type specimen book.
             </p>
-            <p>&#169; Kol_Gym All Rights Reserved</p>
+            <p>&#169; </p>
           </div>
           <div className="mt-16 basis-1/4 md:mt-0">
             <h4 className="font-bold">Links</h4>
