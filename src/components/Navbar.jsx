@@ -26,8 +26,8 @@ const Navbar = () => {
           />
         </svg>
         <svg
-          width="71"
-          height="29"
+          width="30"
+          height="10"
           viewBox="0 0 71 29"
           fill="#E1986F"
           xmlns="http://www.w3.org/2000/svg"
