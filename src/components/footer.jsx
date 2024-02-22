@@ -3,7 +3,7 @@ import React from "react";
 
 function footer() {
   return (
-    <div classname="w-full">
+    <div classname="w-full m-auto">
       <div className="h-[1px] bg-[#0ef] rounded-sm flex self-center" />
       <div className=" text-white flex justify-between px-5 py-2 tracking-wide">
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
