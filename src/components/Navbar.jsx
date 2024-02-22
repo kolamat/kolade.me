@@ -14,8 +14,7 @@ const Navbar = () => {
       <div className="fixed top-0 z-30 w-full py-6 flex top- left-0 bg-slate-900 justify-between items-center h-24 text-white mx-auto px-4 w-">
         <div className="flex items-center justify-between gap-1">
           <svg
-            className=" right-0 left-0"
-            width="50"
+            width="38"
             height="30"
             viewBox="0 0 94 108"
             fill="#E1986F"
