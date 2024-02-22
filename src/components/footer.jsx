@@ -3,7 +3,7 @@ import React from "react";
 
 function footer() {
   return (
-    <div classname="w-full m-auto">
+    <section>
       <div className="h-[1px] bg-[#0ef] rounded-sm flex self-center" />
       <div className=" text-white flex justify-between px-5 py-2 tracking-wide">
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
@@ -15,7 +15,6 @@ function footer() {
               viewBox="0 0 94 108"
               fill="#E1986F"
               xmlns="http://www.w3.org/2000/svg"
-              cy="50"
             >
               <path
                 d="M54.0434 101.423L55.3836 102.908H57.384H72.616H82.8456L75.9332 95.3673L37.8715 53.8453L75.5678 12.2124L82.377 4.69202H72.232H57.512H55.4954L54.1533 6.19722L25.148 38.7274V9.19202V4.69202H20.648H9H4.5V9.19202V98.408V102.908H9H20.648H25.148V98.408V69.4065L54.0434 101.423Z"
@@ -56,7 +55,7 @@ function footer() {
         </a>
       </div> */}
       </div>
-    </div>
+    </section>
   );
 }
 
