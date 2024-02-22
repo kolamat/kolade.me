@@ -26,7 +26,6 @@ const Navbar = () => {
           />
         </svg>
         <svg
-          className="mx-1"
           width="30"
           height="10"
           viewBox="0 0 71 29"
