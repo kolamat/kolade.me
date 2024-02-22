@@ -28,7 +28,16 @@ function footer() {
               ever since the 1500s, when an unknown printer took a gallery of
               type and scrambled it to make a type specimen book.
             </p>
-            <p>&#169; </p>
+            <p>
+              &#169;{" "}
+              <p className="block">
+                Copyright &copy; 2023 by&nbsp;
+                <strong>
+                  <span>M.J.K</span>
+                </strong>
+                &nbsp; All Rights Reserved.
+              </p>
+            </p>
           </div>
           <div className="mt-16 basis-1/4 md:mt-0">
             <h4 className="font-bold">Links</h4>
