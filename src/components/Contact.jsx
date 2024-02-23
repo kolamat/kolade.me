@@ -35,7 +35,7 @@ export const Contact = () => {
       <h1 className=" text-[2.8rem] sm:text-4xl text-white text-center text-3xl font-bold py-2">
         Contact <span className="text-[#0ef] underline">Me</span>
       </h1>
-      <div className="grid md:flex gap-4 items-center mx-6 px-4">
+      <div className="grid lg:flex gap-4 items-center mx-6 px-4">
         <form
           ref={form}
           onSubmit={sendEmail}
