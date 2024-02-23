@@ -9,7 +9,7 @@ import kolade from "../assets/kolade.jpg";
 const hero = () => {
   return (
     <div className="mx-auto text-white bg-[#000300] pt-24 pb-16 px-1">
-      <div className="mx-auto grid md:grid-cols-2">
+      <div className="mx-6 grid md:grid-cols-2">
         <div className="flex flex-col justify-center mx-3">
           <h3 className="font-bold text-3xl">Hello, it's me</h3>
           <h1 className="lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-bold py-2">
