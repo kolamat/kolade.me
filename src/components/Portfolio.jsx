@@ -12,7 +12,7 @@ function Portfolio() {
       <h2 className="text-white text-[2.8rem] text-center font-bold py-1">
         Latests <span className="text-[#0ef]">Project</span>
       </h2>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-auto gap-5 box-border py-11 px-8 place-items-center">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-5 box-border py-11 px-4 place-items-center">
         <img className=" rounded-2xl h-96 w-96" src={mokLogo} alt="Kolade" />
         {/* <img
           className=" rounded-2xl h-96 w-96"
