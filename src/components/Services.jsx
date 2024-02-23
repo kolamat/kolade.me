@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa";
 
 function Services() {
   return (
-    <div className="w-full text-white py-[7rem] px-4 mx-6">
+    <div className="w-full text-white py-[7rem] px-4 ml-6 mr-9">
       <h1 className=" text-[2.8rem] w-full text-3xl font-bold flex items-center justify-center gap-2 mb-6">
         My<span className="text-[#0ef] underline">Services</span>
       </h1>
