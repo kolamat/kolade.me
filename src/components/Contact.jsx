@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 // import React from "react";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import kolade from "../assets/window-logo.jpg";
 import style from "./app.css";
