@@ -14,11 +14,7 @@ function Portfolio() {
       </h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-5 box-border py-11 px-4 place-items-center">
         <img className=" rounded-2xl h-96 w-96" src={mokLogo} alt="Kolade" />
-        {/* <img
-          className=" rounded-2xl h-96 w-96"
-          src={Mok}
-          alt="Kolade"
-        /> */}
+
         <img
           className=" rounded-2xl h-96 w-96"
           src={twoIphones}
