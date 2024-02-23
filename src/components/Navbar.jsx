@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 z-30 w-full py-6 flex top- left-0 bg-slate-900 justify-between items-center h-24 text-white mx-auto px-4 w-">
+    <div className="fixed top-0 z-30 w-full py-6 flex top- left-0 bg-slate-900 justify-between items-center h-24 text-white mx-6 px-4">
       <div className="flex items-center justify-between gap-1">
         <svg
           width="38"
