@@ -29,7 +29,7 @@ const Navbar = () => {
           width="30"
           height="10"
           viewBox="0 0 71 29"
-          fill="rgba(44, 121, 255, 0.826);"
+          fill="#E1986F"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
