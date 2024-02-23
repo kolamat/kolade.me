@@ -2,7 +2,7 @@
 // import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import kolade from "../assets/window-logo.jpg";
+import email from "../assets/window-logo.jpg";
 import style from "./app.css";
 
 export const Contact = () => {
