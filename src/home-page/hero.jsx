@@ -126,7 +126,7 @@ const hero = () => {
             A little speech about my-seif
           </h3>
           <p className="text-[20px] font-bold">
-            I Talk to people the way I want to be spoken to; respect people as I
+            I Talk to people the way I want to be spoken to respect people as I
             wish to be respected. My status, religion, race, political views, or
             culture don't matter being a good person really is as simple as
             following the golden rule and treating others as I would like them
