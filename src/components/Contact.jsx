@@ -59,7 +59,7 @@ export const Contact = () => {
         </form>
         <div>
           <img
-            className="w-[560px] lg:w-[500px] h-[260px] mx-auto my-4 rounded-2xl"
+            className="w-full lg:w-[500px] h-[260px] mx-auto my-4 rounded-2xl"
             src={kolade}
             alt="Kolade"
           />
