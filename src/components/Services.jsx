@@ -23,7 +23,7 @@ function Services() {
             <a href="/">Read More</a>
           </button>
         </div>
-        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400 hover:transition-[0.5s,ease] delay-200">
+        <div className="flex flex-col items-center border p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400  transition duration-300 delay-200">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaPaintRoller size={42} />
             Graphic Design
@@ -36,7 +36,7 @@ function Services() {
             <a href="/">Read More</a>
           </button>
         </div>
-        <div className=" flex flex-col items-center border lg:col-span-1 md:col-span-2 p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400 hover:transition-[0.5s,ease] delay-200">
+        <div className=" flex flex-col items-center border lg:col-span-1 md:col-span-2 p-4  justify-between rounded-[15px] w-[100%] hover:border-sky-400 transition duration-300 delay-200">
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaChartBar size={42} />
             Digital Marketing
