@@ -2,7 +2,7 @@
 // import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import email from "../assets/window-logo.jpg";
+import email from "../assets/email.png";
 import style from "./app.css";
 
 export const Contact = () => {
@@ -59,8 +59,8 @@ export const Contact = () => {
         </form>
         <div>
           <img
-            className="w-full lg:w-[500px] h-[260px] mx-auto my-4 rounded-2xl"
-            src={kolade}
+            className="w-[300] lg:w-[400px] h-[260px] mx-auto my-4 rounded-2xl"
+            src={email}
             alt="Kolade"
           />
         </div>
