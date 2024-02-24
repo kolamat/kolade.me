@@ -1,4 +1,3 @@
-import React from "react";
 import "aos/dist/aos.css";
 import kolade1 from "../assets/kolade1.jpg";
 
