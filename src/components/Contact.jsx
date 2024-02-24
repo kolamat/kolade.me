@@ -39,7 +39,7 @@ export const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="md:items-start items-center"
+          className="lg:items-start items-center"
         >
           <label>Name</label>
           <input type="text" name="user_name" placeholder="K*****" />
