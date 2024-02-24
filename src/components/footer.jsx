@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 // import { FaArrowUp } from "react-icons/fa";
 
 function footer() {
@@ -12,7 +12,7 @@ function footer() {
             {/* <img src={logo} alt="logo" /> */}
             <svg
               width="50"
-              height="30"
+              height="28"
               viewBox="0 0 94 108"
               fill="#E1986F"
               xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ function footer() {
           </div>
           <div className="flex flex-col align-middle justify-center text-center items-center mt-16 basis-1/4 md:mt-0">
             <h4 className="font-bold">Links</h4>
-            <p className="my-5">
+            <p className="my-2">
               <a
                 className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                 href="https://github.com/kolamat"
@@ -50,7 +50,7 @@ function footer() {
                 <FaGithub size={30} className="bg-[#0ef] rounded-full" />
               </a>
             </p>
-            <p className="my-5">
+            <p className="my-2">
               <a
                 className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                 href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
@@ -64,8 +64,7 @@ function footer() {
                 />
               </a>
             </p>
-            <p>
-              {" "}
+            <p className="my-2">
               <a
                 className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                 href="https://www.facebook.com/kolade.matanmi.92"
@@ -74,6 +73,17 @@ function footer() {
                 title="Facebook"
               >
                 <FaFacebook size={30} className="rounded-full bg-[#0ef]" />
+              </a>
+            </p>
+            <p className="my-2">
+              <a
+                className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                href="https://twitter.com/koladeMOK"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Twitter"
+              >
+                <FaXTwitter size={30} className="rounded-full bg-[#0ef]" />
               </a>
             </p>
           </div>
