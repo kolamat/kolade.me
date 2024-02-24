@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa";
+import { FaFacebook, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 // import { FaArrowUp } from "react-icons/fa";
 
@@ -37,7 +37,7 @@ function footer() {
               &nbsp; All Rights Reserved.
             </p>
           </div>
-          <div className="mt-16 basis-1/4 md:mt-0">
+          <div className="flex flex-col align-middle justify-center text-center items-center mt-16 basis-1/4 md:mt-0">
             <h4 className="font-bold">Links</h4>
             <p className="my-5">
               <a
@@ -64,7 +64,18 @@ function footer() {
                 />
               </a>
             </p>
-            <p>Ullamcorper vivamus</p>
+            <p>
+              {" "}
+              <a
+                className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                href="https://www.facebook.com/kolade.matanmi.92"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Facebook"
+              >
+                <FaFacebook size={30} className="rounded-full bg-[#0ef]" />
+              </a>
+            </p>
           </div>
           <div className="mt-16 basis-1/4 md:mt-0">
             <h4 className="font-bold">Contact Us</h4>
