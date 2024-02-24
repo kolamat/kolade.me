@@ -32,7 +32,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className=" px-4 py-11 m-auto">
+    <div className="md:px-4 py-11 m-auto">
       <h1 className=" text-[2.8rem] sm:text-4xl text-white text-center text-3xl font-bold py-2">
         Contact <span className="text-[#0ef] underline">Me</span>
       </h1>

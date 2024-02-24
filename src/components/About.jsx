@@ -4,7 +4,7 @@ import kolade1 from "../assets/kolade1.jpg";
 function about() {
   return (
     <div className="flex flex-col justify-center mx-3">
-      <div className="grid md:grid-cols-2 mx-6 px-4 text-white py-16">
+      <div className="grid md:grid-cols-2 md:mx-6 md:px-4 text-white py-16">
         <div className="flex flex-col justify-center mx-3">
           <h1 className=" text-[2.8rem] sm:text-4xl text-3xl font-bold py-2">
             About <span className="text-[#0ef] underline">Me</span>
