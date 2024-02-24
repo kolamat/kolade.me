@@ -11,8 +11,8 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 z-30 w-full py-6 flex top- left-0 bg-slate-900 justify-between items-center h-24 text-white mx-auto px-4">
-      <div className="flex items-center justify-between gap-1 sm:mx-6 md:px-4">
-        <a href="#">
+      <a href="#">
+        <div className="flex items-center justify-between gap-1 sm:mx-6 md:px-4">
           <svg
             width="38"
             height="30"
@@ -40,10 +40,12 @@ const Navbar = () => {
               className="m-0"
             />
           </svg>
-        </a>
 
-        <h1 className="w-full text-4xl font-bold text-[#147bf9]">Portfolio</h1>
-      </div>
+          <h1 className="w-full text-4xl font-bold text-[#147bf9]">
+            Portfolio
+          </h1>
+        </div>
+      </a>
       <ul className="hidden md:flex font-bold text-xl">
         <li className="p-4">Home</li>
         <li className="p-4">About</li>
