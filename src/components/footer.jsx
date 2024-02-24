@@ -43,8 +43,8 @@ function footer() {
           </div>
           <div className="mt-16 basis-1/4 md:mt-0">
             <h4 className="font-bold">Contact Us</h4>
-            <p className="my-5">Tempus metus mattis risus volupat egestas</p>
-            <p>(+234) 8150672809</p>
+            <p className="my-5">Outlook: kolade2001@outlook.com</p>
+            <p>Mobile: (+234) 8150672809</p>
           </div>
         </div>
         {/* 
