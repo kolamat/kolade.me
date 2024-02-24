@@ -41,15 +41,22 @@ export const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="lg:items-start items-center"
+          //   className="lg:items-start items-center"
+          className={inputStyles}
         >
           <label>Name</label>
-          <input type="text" name="user_name" placeholder="K*****" />
+          <input
+            type="text"
+            name="user_name"
+            placeholder="K*****"
+            className={inputStyles}
+          />
           <label>Email</label>
           <input
             type="email"
             name="user_email"
             placeholder="Email: M***********"
+            className={inputStyles}
           />
           <label>Message</label>
           <textarea
