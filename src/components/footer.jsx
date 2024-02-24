@@ -4,7 +4,7 @@ import React from "react";
 function footer() {
   return (
     <section>
-      <div className="h-[1px] bg-[#0ef] rounded-sm flex self-center" />
+      <div className="h-[1px] bg-[#0ef] rounded-sm flex center" />
       <div className=" text-white flex justify-between px-5 py-2 tracking-wide">
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
           <div className="mt-16 basis-1/2 md:mt-0">

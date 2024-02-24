@@ -5,6 +5,8 @@ import emailjs from "@emailjs/browser";
 import email from "../assets/email.png";
 import style from "./app.css";
 
+const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
+
 export const Contact = () => {
   const form = useRef();
 
@@ -50,7 +52,11 @@ export const Contact = () => {
             placeholder="Email: M***********"
           />
           <label>Message</label>
-          <textarea name="message" placeholder="Email Subject" />
+          <textarea
+            name="message"
+            placeholder="Email Subject"
+            className={inputStyles}
+          />
           <input
             type="submit"
             value="Send"
