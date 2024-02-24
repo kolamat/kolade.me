@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-
+import { FaLinkedin } from "react-icons/fa6";
 // import { FaArrowUp } from "react-icons/fa";
 
 function footer() {
@@ -47,10 +47,23 @@ function footer() {
                 rel="noopener noreferrer"
                 title="Github"
               >
-                <FaGithub size={20} />
+                <FaGithub size={30} className="bg-[#0ef] rounded-full" />
               </a>
             </p>
-            <p className="my-5">Et gravida id et etiam</p>
+            <p className="my-5">
+              <a
+                className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Linkedin"
+              >
+                <FaLinkedin
+                  size={30}
+                  className="bg-[#0ef] rounded-full text-center"
+                />
+              </a>
+            </p>
             <p>Ullamcorper vivamus</p>
           </div>
           <div className="mt-16 basis-1/4 md:mt-0">
