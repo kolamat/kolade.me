@@ -47,7 +47,10 @@ function footer() {
                 rel="noopener noreferrer"
                 title="Github"
               >
-                <FaGithub size={30} className="bg-[#0ef] rounded-full" />
+                <FaGithub
+                  size={30}
+                  className="bg-[#0ef] rounded-full transition duration-300"
+                />
               </a>
             </p>
             <p className="my-2">
@@ -60,7 +63,7 @@ function footer() {
               >
                 <FaLinkedin
                   size={30}
-                  className="bg-[#0ef] rounded-full text-center"
+                  className="bg-[#0ef] rounded-full text-center transition duration-300"
                 />
               </a>
             </p>
@@ -72,7 +75,10 @@ function footer() {
                 rel="noopener noreferrer"
                 title="Facebook"
               >
-                <FaFacebook size={30} className="rounded-full bg-[#0ef]" />
+                <FaFacebook
+                  size={30}
+                  className="rounded-full bg-[#0ef] transition duration-300"
+                />
               </a>
             </p>
             <p className="my-2">
@@ -83,7 +89,10 @@ function footer() {
                 rel="noopener noreferrer"
                 title="Twitter"
               >
-                <FaXTwitter size={30} className="rounded-full bg-[#0ef]" />
+                <FaXTwitter
+                  size={30}
+                  className="rounded-full bg-[#0ef] transition duration-300"
+                />
               </a>
             </p>
           </div>
