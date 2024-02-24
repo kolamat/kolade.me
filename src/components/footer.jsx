@@ -30,7 +30,7 @@ function footer() {
               type and scrambled it to make a type specimen book.
             </p>
             <p className="block">
-              Copyright &copy; 2023 by&nbsp;
+              Copyright &copy; 2024 by&nbsp;
               <strong>
                 <span>M.J.K</span>
               </strong>
