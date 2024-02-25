@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import email from "../assets/email.png";
-import style from "./app.css";
+import "./app.css";
 
 const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
 
