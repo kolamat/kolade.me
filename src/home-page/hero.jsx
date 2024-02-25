@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Typed from "react-typed";
 import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
