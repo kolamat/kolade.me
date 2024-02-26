@@ -47,11 +47,22 @@ const Navbar = () => {
         </div>
       </a>
       <ul className="hidden md:flex font-bold text-xl">
-        <li className="p-4">Home</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Services</li>
-        <li className="p-4">Portfolio</li>
-        <li className="p-4">Contact</li>
+        <a href="">
+          <li className="p-4">Home</li>
+        </a>
+        <a>
+          {" "}
+          <li className="p-4">About</li>
+        </a>
+        <a>
+          <li className="p-4">Services</li>
+        </a>
+        <a>
+          <li className="p-4">Portfolio</li>
+        </a>
+        <a>
+          <li className="p-4">Contact</li>
+        </a>
       </ul>
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
