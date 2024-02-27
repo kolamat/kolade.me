@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
       </a>
       <ul className="hidden md:flex font-bold text-xl">
-        <a href="#home">
+        <a href="#hero">
           <li className="p-4">Home</li>
         </a>
         <a href="#about">
