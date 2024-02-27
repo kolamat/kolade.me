@@ -47,11 +47,10 @@ const Navbar = () => {
         </div>
       </a>
       <ul className="hidden md:flex font-bold text-xl">
-        <a href="#">
+        <a href="#home">
           <li className="p-4">Home</li>
         </a>
-        <a href="about">
-          {" "}
+        <a href="#about">
           <li className="p-4">About</li>
         </a>
         <a>
