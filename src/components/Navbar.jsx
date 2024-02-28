@@ -21,34 +21,25 @@ const Navbar = () => {
             fill="#E1986F"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              className="hover:fill-[#147bf9] hover:stroke-[#E1986F] transition duration-300"
-              width="38"
-              height="30"
-              viewBox="0 0 94 108"
-              fill="#E1986F"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M54.0434 101.423L55.3836 102.908H57.384H72.616H82.8456L75.9332 95.3673L37.8715 53.8453L75.5678 12.2124L82.377 4.69202H72.232H57.512H55.4954L54.1533 6.19722L25.148 38.7274V9.19202V4.69202H20.648H9H4.5V9.19202V98.408V102.908H9H20.648H25.148V98.408V69.4065L54.0434 101.423Z"
-                stroke="#FFC132"
-                stroke-width="9"
-              />
-            </svg>
-            <svg
-              width="30"
-              height="10"
-              viewBox="0 0 71 29"
-              fill="rgb(96 165 250 / var(--tw-text-opacity))"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M65.515 9.56802V5.06802H61.015H9.94299H5.44299V9.56802V19.424V23.924H9.94299H61.015H65.515V19.424V9.56802Z"
-                stroke="#FFC132"
-                stroke-width="9"
-                className="m-0"
-              />
-            </svg>
+            <path
+              d="M54.0434 101.423L55.3836 102.908H57.384H72.616H82.8456L75.9332 95.3673L37.8715 53.8453L75.5678 12.2124L82.377 4.69202H72.232H57.512H55.4954L54.1533 6.19722L25.148 38.7274V9.19202V4.69202H20.648H9H4.5V9.19202V98.408V102.908H9H20.648H25.148V98.408V69.4065L54.0434 101.423Z"
+              stroke="#FFC132"
+              stroke-width="9"
+            />
+          </svg>
+          <svg
+            width="30"
+            height="10"
+            viewBox="0 0 71 29"
+            fill="rgb(96 165 250 / var(--tw-text-opacity))"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M65.515 9.56802V5.06802H61.015H9.94299H5.44299V9.56802V19.424V23.924H9.94299H61.015H65.515V19.424V9.56802Z"
+              stroke="#FFC132"
+              stroke-width="9"
+              className="m-0"
+            />
           </svg>
 
           <h1 className="w-full text-4xl font-bold text-[#147bf9]">
