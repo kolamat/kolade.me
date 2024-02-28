@@ -3,7 +3,7 @@ import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
-  const [nav, setNav] = useState();
+  const [nav, setNav] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -56,7 +56,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-700"
+            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in duration-700"
             : "fixed left-[-100%]"
         }
       >
