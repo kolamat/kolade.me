@@ -42,62 +42,64 @@ function footer() {
           </div>
           <div className="md:flex flex-col align-middle justify-center text-center items-center mt-16 basis-1/4 md:mt-0 grid grid-cols-2">
             <h4 className="font-bold col-span-2">Links</h4>
-            <p className="my-2">
-              <a
-                className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
-                href="https://github.com/kolamat"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Github"
-              >
-                <FaGithub
-                  size={30}
-                  className="bg-[#0ef] rounded-full transition duration-500"
-                />
-              </a>
-            </p>
-            <p className="my-2">
-              <a
-                className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
-                href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Linkedin"
-              >
-                <FaLinkedin
-                  size={30}
-                  className="bg-[#0ef] rounded-full text-center transition duration-500"
-                />
-              </a>
-            </p>
-            <p className="my-2">
-              <a
-                className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
-                href="https://www.facebook.com/kolade.matanmi.92"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Facebook"
-              >
-                <FaFacebook
-                  size={30}
-                  className="rounded-full bg-[#0ef] transition duration-500"
-                />
-              </a>
-            </p>
-            <p className="my-2">
-              <a
-                className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
-                href="https://twitter.com/koladeMOK"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Twitter"
-              >
-                <FaXTwitter
-                  size={30}
-                  className="rounded-full bg-[#0ef] transition duration-500"
-                />
-              </a>
-            </p>
+            <div className="flex justify-between">
+              <p className="my-2">
+                <a
+                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  href="https://github.com/kolamat"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Github"
+                >
+                  <FaGithub
+                    size={30}
+                    className="bg-[#0ef] rounded-full transition duration-500"
+                  />
+                </a>
+              </p>
+              <p className="my-2">
+                <a
+                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Linkedin"
+                >
+                  <FaLinkedin
+                    size={30}
+                    className="bg-[#0ef] rounded-full text-center transition duration-500"
+                  />
+                </a>
+              </p>
+              <p className="my-2">
+                <a
+                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  href="https://www.facebook.com/kolade.matanmi.92"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Facebook"
+                >
+                  <FaFacebook
+                    size={30}
+                    className="rounded-full bg-[#0ef] transition duration-500"
+                  />
+                </a>
+              </p>
+              <p className="my-2">
+                <a
+                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  href="https://twitter.com/koladeMOK"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Twitter"
+                >
+                  <FaXTwitter
+                    size={30}
+                    className="rounded-full bg-[#0ef] transition duration-500"
+                  />
+                </a>
+              </p>
+            </div>
           </div>
           <div className="mt-16 basis-1/4 md:mt-0">
             <h4 className="font-bold">Contact Us</h4>
