@@ -14,8 +14,12 @@ function Portfolio() {
         Latests <span className="text-[#0ef] text-center">Project</span>
       </h2>
       <div className="relative grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-5 box-border py-11 px-4 place-items-center">
-        <p className="hidden hover:flex">
-          <img className=" rounded-2xl h-96 w-96" src={mokLogo} alt="Kolade" />
+        <p>
+          <img
+            className=" rounded-2xl h-96 w-96 cursor-pointer"
+            src={mokLogo}
+            alt="Kolade"
+          />
           KOLADE
         </p>
         <img
