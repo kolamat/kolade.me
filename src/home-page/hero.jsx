@@ -14,7 +14,7 @@ const hero = () => {
           <h1 className="lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-bold py-2">
             <svg
               id="logo"
-              width="355"
+              width="340"
               height="50"
               viewBox="0 0 1089 117"
               fill="none"
