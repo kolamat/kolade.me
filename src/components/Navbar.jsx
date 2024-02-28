@@ -27,20 +27,6 @@ const Navbar = () => {
               stroke-width="9"
             />
           </svg>
-          <svg
-            width="30"
-            height="10"
-            viewBox="0 0 71 29"
-            fill="rgb(96 165 250 / var(--tw-text-opacity))"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M65.515 9.56802V5.06802H61.015H9.94299H5.44299V9.56802V19.424V23.924H9.94299H61.015H65.515V19.424V9.56802Z"
-              stroke="#FFC132"
-              stroke-width="9"
-              className="m-0"
-            />
-          </svg>
 
           <h1 className="w-full text-4xl font-bold text-[#147bf9]">
             Portfolio
