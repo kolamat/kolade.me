@@ -40,10 +40,9 @@ function footer() {
               &nbsp; All Rights Reserved.
             </p>
           </div>
-          <div className="flex flex-col align-middle justify-center text-center items-center mt-16 basis-1/4 md:mt-0">
-            <h4 className="font-bold">Links</h4>
+          <div className="md:flex flex-col align-middle justify-center text-center items-center mt-16 basis-1/4 md:mt-0 grid grid-cols-2">
+            <h4 className="font-bold col-span-2">Links</h4>
             <p className="my-2">
-                <div>
               <a
                 className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                 href="https://github.com/kolamat"
@@ -99,7 +98,6 @@ function footer() {
                 />
               </a>
             </p>
-            </div>
           </div>
           <div className="mt-16 basis-1/4 md:mt-0">
             <h4 className="font-bold">Contact Us</h4>
