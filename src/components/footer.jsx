@@ -6,7 +6,7 @@ function footer() {
   return (
     <section className="mb-8">
       <div className="h-[1px] bg-[#0ef] rounded-sm flex justify-center" />
-      <div className=" text-white flex justify-between sm:px-5 pt-8 tracking-wide">
+      <div className=" text-white flex justify-between sm:px-8 pt-8 tracking-wide">
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
           <div className="mt-16 basis-1/2 md:mt-0">
             {/* <img src={logo} alt="logo" /> */}
