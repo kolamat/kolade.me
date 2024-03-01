@@ -113,8 +113,8 @@ function footer() {
           <FaArrowUp />
         </a>
       </div> */}
+        <div className="border bg-gray-30" />
       </div>
-      <div className="border bg-gray-30" />
     </section>
   );
 }
