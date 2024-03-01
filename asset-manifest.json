@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kolade.me/static/css/main.f246c7ee.css",
-    "main.js": "/kolade.me/static/js/main.9bd78062.js",
+    "main.css": "/kolade.me/static/css/main.16efa7fe.css",
+    "main.js": "/kolade.me/static/js/main.8acc0502.js",
     "static/media/laptop-card.PNG": "/kolade.me/static/media/laptop-card.e08be554d855ce742318.PNG",
     "static/media/Makeup.PNG": "/kolade.me/static/media/Makeup.96e19b607e6c710d1167.PNG",
     "static/media/two-iphones.PNG": "/kolade.me/static/media/two-iphones.6b96a2d277d70fa7438f.PNG",
@@ -10,11 +10,11 @@
     "static/media/mok-logo.PNG": "/kolade.me/static/media/mok-logo.cb8249f8a7341f15df9a.PNG",
     "static/media/kolade.jpg": "/kolade.me/static/media/kolade.c2274b51cf6d4769ba6c.jpg",
     "index.html": "/kolade.me/index.html",
-    "main.f246c7ee.css.map": "/kolade.me/static/css/main.f246c7ee.css.map",
-    "main.9bd78062.js.map": "/kolade.me/static/js/main.9bd78062.js.map"
+    "main.16efa7fe.css.map": "/kolade.me/static/css/main.16efa7fe.css.map",
+    "main.8acc0502.js.map": "/kolade.me/static/js/main.8acc0502.js.map"
   },
   "entrypoints": [
-    "static/css/main.f246c7ee.css",
-    "static/js/main.9bd78062.js"
+    "static/css/main.16efa7fe.css",
+    "static/js/main.8acc0502.js"
   ]
 }
