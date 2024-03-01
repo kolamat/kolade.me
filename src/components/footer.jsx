@@ -32,13 +32,6 @@ function footer() {
               ever since the 1500s, when an unknown printer took a gallery of
               type and scrambled it to make a type specimen book.
             </p>
-            <p className="block">
-              Copyright &copy; 2024 by&nbsp;
-              <strong>
-                <span>M.J.K</span>
-              </strong>
-              &nbsp; All Rights Reserved.
-            </p>
           </div>
           <div className="md:flex md:flex-col text-center items- mt-16 basis-1/4 grid grid-cols-1 md:mt-2">
             <h4 className="font-bold mb-5 md:m-0">Links</h4>
