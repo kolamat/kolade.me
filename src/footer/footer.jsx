@@ -4,7 +4,7 @@ import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 function footer() {
   return (
-    <section className="mb-8">
+    <section className="mb-8 bg-slate-900">
       <div className="h-[1px] bg-[#0ef] rounded-sm flex justify-center" />
       <div className=" text-white flex justify-between sm:px-8 pt-8 tracking-wide">
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
