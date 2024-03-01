@@ -25,7 +25,7 @@ function about() {
           </a>
         </div>
         <img
-          className="w-[400px] lg:m-0 lg:w-[500px] my-4 rounded-2xl mx-auto place-self-end"
+          className="w-[] lg:m-0 lg:w-[500px] my-4 rounded-2xl mx-auto place-self-end"
           src={kolade1}
           alt="still Kolade"
           loading="lazy"
