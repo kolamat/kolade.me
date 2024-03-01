@@ -78,11 +78,21 @@ const Navbar = () => {
         </h1>
 
         <ul className="pt-4 uppercase font-bold">
-          <li className="p-4 border-b border-gray-600">Home</li>
-          <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4 border-b border-gray-600">Services</li>
-          <li className="p-4 border-b border-gray-600">Portfolio</li>
-          <li className="p-4">Contact</li>
+          <a href="">
+            <li className="p-4 border-b border-gray-600">Home</li>
+          </a>
+          <a href="">
+            <li className="p-4 border-b border-gray-600">About</li>
+          </a>
+          <a href="">
+            <li className="p-4 border-b border-gray-600">Services</li>
+          </a>
+          <a href="">
+            <li className="p-4 border-b border-gray-600">Portfolio</li>
+          </a>
+          <a href="">
+            <li className="p-4">Contact</li>
+          </a>
         </ul>
       </div>
     </div>
