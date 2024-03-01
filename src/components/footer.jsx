@@ -114,7 +114,6 @@ function footer() {
         </a>
       </div> */}
       </div>
-      <div className="border bg-gray-30 mt-10 mb-5 mx-auto" />
     </section>
   );
 }
