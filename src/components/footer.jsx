@@ -53,7 +53,7 @@ function footer() {
                 >
                   <FaGithub
                     size={30}
-                    className="bg-[#0ef] rounded-full transition duration-500"
+                    className="bg-[#0ef] rounded-lg transition duration-500"
                   />
                 </a>
               </p>
@@ -67,13 +67,13 @@ function footer() {
                 >
                   <FaLinkedin
                     size={30}
-                    className="bg-[#0ef] rounded-full text-center transition duration-500"
+                    className="bg-[#0ef] rounded-lg text-center transition duration-500"
                   />
                 </a>
               </p>
               <p className="my-2">
                 <a
-                  className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                   href="https://www.instagram.com/matiness200/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -81,7 +81,7 @@ function footer() {
                 >
                   <FaInstagram
                     size={30}
-                    className="bg-[#0ef] rounded-full text-center transition duration-500"
+                    className="bg-[#0ef] rounded-lg text-center transition duration-500"
                   />
                 </a>
               </p>
@@ -95,7 +95,7 @@ function footer() {
                 >
                   <FaFacebook
                     size={30}
-                    className="rounded-full bg-[#0ef] transition duration-500"
+                    className="rounded-lg bg-[#0ef] transition duration-500"
                   />
                 </a>
               </p>
@@ -109,7 +109,7 @@ function footer() {
                 >
                   <FaXTwitter
                     size={30}
-                    className="rounded-full bg-[#0ef] transition duration-500"
+                    className="rounded-lg bg-[#0ef] transition duration-500"
                   />
                 </a>
               </p>
