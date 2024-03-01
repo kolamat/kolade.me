@@ -14,6 +14,7 @@ const hero = () => {
           <h3 className=" font-bold py-2">
             {/* lg:text-[50px] md:text-5xl sm:text-4xl text-3xl */}
             <svg
+              className=""
               id="logo"
               width="340"
               height="50"
