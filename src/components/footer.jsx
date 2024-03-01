@@ -45,7 +45,7 @@ function footer() {
             <div className="flex gap-7 md:gap-0 md:mt-4 md:flex-col items-center justify-between">
               <p className="my-2">
                 <a
-                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  className="rounded-full text-black hover:text-white hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                   href="https://github.com/kolamat"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function footer() {
                 >
                   <FaGithub
                     size={30}
-                    className="bg-[#0ef] rounded-full p-1 transition duration-500"
+                    className="bg-[#0ef] hover:bg-black rounded-full p-1 transition duration-500"
                   />
                 </a>
               </p>
@@ -67,7 +67,7 @@ function footer() {
                 >
                   <FaLinkedin
                     size={30}
-                    className="bg-[#0ef] rounded-full p-1 text-center transition duration-500"
+                    className="bg-[#0ef] hover:bg-black rounded-full p-1 text-center transition duration-500"
                   />
                 </a>
               </p>
@@ -81,7 +81,7 @@ function footer() {
                 >
                   <FaInstagram
                     size={30}
-                    className="bg-[#0ef] rounded-full p-1 text-center transition duration-500"
+                    className="bg-[#0ef] hover:bg-black rounded-full p-1 text-center transition duration-500"
                   />
                 </a>
               </p>
@@ -95,7 +95,7 @@ function footer() {
                 >
                   <FaFacebook
                     size={30}
-                    className="rounded-full p-1 bg-[#0ef] transition duration-500"
+                    className="rounded-full p-1 bg-[#0ef] hover:bg-black transition duration-500"
                   />
                 </a>
               </p>
@@ -109,7 +109,7 @@ function footer() {
                 >
                   <FaXTwitter
                     size={30}
-                    className="rounded-full p-1 bg-[#0ef] transition duration-500"
+                    className="rounded-full p-1 bg-[#0ef] hover:bg-black transition duration-500"
                   />
                 </a>
               </p>
