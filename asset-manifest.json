@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kolade.me/static/css/main.796eb044.css",
-    "main.js": "/kolade.me/static/js/main.b160dba0.js",
+    "main.js": "/kolade.me/static/js/main.504201f9.js",
     "static/media/laptop-card.PNG": "/kolade.me/static/media/laptop-card.e08be554d855ce742318.PNG",
     "static/media/Makeup.PNG": "/kolade.me/static/media/Makeup.96e19b607e6c710d1167.PNG",
     "static/media/two-iphones.PNG": "/kolade.me/static/media/two-iphones.6b96a2d277d70fa7438f.PNG",
@@ -11,10 +11,10 @@
     "static/media/kolade.jpg": "/kolade.me/static/media/kolade.c2274b51cf6d4769ba6c.jpg",
     "index.html": "/kolade.me/index.html",
     "main.796eb044.css.map": "/kolade.me/static/css/main.796eb044.css.map",
-    "main.b160dba0.js.map": "/kolade.me/static/js/main.b160dba0.js.map"
+    "main.504201f9.js.map": "/kolade.me/static/js/main.504201f9.js.map"
   },
   "entrypoints": [
     "static/css/main.796eb044.css",
-    "static/js/main.b160dba0.js"
+    "static/js/main.504201f9.js"
   ]
 }
