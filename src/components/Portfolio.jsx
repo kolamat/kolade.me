@@ -20,7 +20,6 @@ function Portfolio() {
             src={mokLogo}
             alt="Kolade"
           />
-          KOLADE
         </p>
         <img
           className=" rounded-2xl h-96 w-96"
