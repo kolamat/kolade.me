@@ -12,11 +12,11 @@ function footer() {
             {/* <img src={logo} alt="logo" /> */}
             <a href="/">
               <svg
-                className="hover:fill-[#147bf9] hover:stroke-[#E1986F] transition duration-300 mt-2"
+                className="hover:fill-[#147bf9] hover:stroke-#E1986F] transition duration-300 mt-2"
                 width="50"
                 height="28"
                 viewBox="0 0 94 108"
-                fill="#E1986F"
+                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
