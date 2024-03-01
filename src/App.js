@@ -1,10 +1,10 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./navbar/Navbar";
 import Hero from "./home-page/hero";
-import About from "./components/About";
-import Services from "./components/Services";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Footer from "./components/footer";
+import About from "./about/About";
+import Services from "./services/Services";
+import Portfolio from "./portfolio/Portfolio";
+import Contact from "./contact/Contact";
+import Footer from "./footer/footer";
 
 function App() {
   return (
