@@ -40,7 +40,7 @@ function footer() {
               &nbsp; All Rights Reserved.
             </p>
           </div>
-          <div className="md:grid text-center items- mt-16 basis-1/4 md:mt-0 grid grid-cols-1">
+          <div className="md:grid text-center items- mt-16 basis-1/4 mx-auto grid grid-cols-1 md:mt-4">
             <h4 className="font-bold col-span-2">Links</h4>
             <div className="flex gap-7 md:gap-0 md:flex-col col-span-2 items-center">
               <p className="my-2">
