@@ -45,7 +45,7 @@ function footer() {
             <div className="flex gap-7 md:gap-0 md:mt-4 md:flex-col items-center justify-between">
               <p className="my-2">
                 <a
-                  className="rounded-full text-black hover:text-white hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  className="rounded-lg text-black hover:text-white hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                   href="https://github.com/kolamat"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -59,7 +59,7 @@ function footer() {
               </p>
               <p className="my-2">
                 <a
-                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  className="rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                   href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -73,7 +73,7 @@ function footer() {
               </p>
               <p className="my-2">
                 <a
-                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  className="rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                   href="https://www.instagram.com/matiness200/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -87,7 +87,7 @@ function footer() {
               </p>
               <p className="my-2">
                 <a
-                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  className="rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                   href="https://www.facebook.com/kolade.matanmi.92"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -101,7 +101,7 @@ function footer() {
               </p>
               <p className="my-2">
                 <a
-                  className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  className="rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
                   href="https://twitter.com/koladeMOK"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -112,6 +112,7 @@ function footer() {
                     className="rounded-lg p-1 bg-[#0ef] hover:bg-slate-900 transition duration-500"
                   />
                 </a>
+                lg
               </p>
             </div>
           </div>
