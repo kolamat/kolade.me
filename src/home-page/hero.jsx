@@ -122,9 +122,9 @@ const hero = () => {
               />
             </span>
           </h4>
-          <h3 className=" text-[25px] underline text-blue-400 font-bold">
+          <h4 className=" text-[23px] underline text-blue-400 font-bold">
             A little speech about my-seif
-          </h3>
+          </h4>
           <p className="text-[20px] font-bold">
             I Talk to people the way I want to be spoken to respect people as I
             wish to be respected. My status, religion, race, political views, or
