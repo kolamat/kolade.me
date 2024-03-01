@@ -108,7 +108,7 @@ const hero = () => {
               />
             </svg>
           </h3>
-          <h3 className=" text-[25px] font-bold">
+          <h4 className="font-bold">
             And I'm a&nbsp;
             <span className=" text-[#0ef]">
               <Typed
@@ -121,7 +121,7 @@ const hero = () => {
                 shuffle
               />
             </span>
-          </h3>
+          </h4>
           <h3 className=" text-[25px] underline text-blue-400 font-bold">
             A little speech about my-seif
           </h3>
