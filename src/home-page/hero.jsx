@@ -109,7 +109,7 @@ const hero = () => {
               />
             </svg>
           </h3>
-          <h4 className=" text-[20px] font-bold">
+          <h4 className=" text-[23px] font-bold">
             And I'm a&nbsp;
             <span className=" text-[#0ef]">
               <Typed
