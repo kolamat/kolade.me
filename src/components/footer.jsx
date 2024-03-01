@@ -1,4 +1,4 @@
-import { FaFacebook, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 // import { FaArrowUp } from "react-icons/fa";
 
@@ -66,6 +66,20 @@ function footer() {
                   title="Linkedin"
                 >
                   <FaLinkedin
+                    size={30}
+                    className="bg-[#0ef] rounded-full text-center transition duration-500"
+                  />
+                </a>
+              </p>
+              <p className="my-2">
+                <a
+                  className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                  href="https://www.instagram.com/matiness200/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Instagram"
+                >
+                  <FaInstagram
                     size={30}
                     className="bg-[#0ef] rounded-full text-center transition duration-500"
                   />
