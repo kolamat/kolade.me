@@ -11,10 +11,9 @@ const hero = () => {
       <div className="md:mx-6 md:px-4 grid md:grid-cols-2">
         <div className="flex flex-col justify-center mx-3 space-y-2">
           <h1 className="font-bold text-3xl mt-4">Hello, it's me</h1>
-          <h3 className=" font- py-2">
+          <h3 className=" font-bold py-2">
             {/* lg:text-[50px] md:text-5xl sm:text-4xl text-3xl */}
             <svg
-              className=" font-normal"
               id="logo"
               width="340"
               height="50"
