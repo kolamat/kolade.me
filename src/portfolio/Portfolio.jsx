@@ -16,31 +16,31 @@ function Portfolio() {
       <div className="relative grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-5 box-border py-11 px-4 place-items-center">
         <p>
           <img
-            className=" rounded-2xl h-96 w-96 cursor-pointer"
+            className=" rounded-2xl h- w- cursor-pointer"
             src={mokLogo}
             alt="Kolade"
           />
         </p>
         <img
-          className=" rounded-2xl h-96 w-96"
+          className=" rounded-2xl h- w-"
           src={twoIphones}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className=" rounded-2xl h-96 w-96"
+          className=" rounded-2xl h- w-"
           src={mokLogo2}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className=" rounded-2xl h-96 w-96"
+          className=" rounded-2xl h- w-"
           src={laptopCard}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className=" rounded-2xl h-96 w-96"
+          className=" rounded-2xl h- w-"
           src={makeUp}
           alt="Kolade"
           loading="lazy"
