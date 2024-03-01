@@ -121,6 +121,13 @@ function footer() {
         </a>
       </div> */}
       </div>
+      <p className="block text-white text-center my-10 bg-slate-900">
+        Copyright &copy; 2024 by&nbsp;
+        <strong>
+          <span>M.J.K</span>
+        </strong>
+        &nbsp; All Rights Reserved.
+      </p>
     </section>
   );
 }
