@@ -40,7 +40,7 @@ function footer() {
               &nbsp; All Rights Reserved.
             </p>
           </div>
-          <div className="md:flex md:flex-col text-center items- mt-16 basis-1/4 grid grid-cols-1 md:mt-4">
+          <div className="md:flex md:flex-col text-center items- mt-16 basis-1/4 grid grid-cols-1 md:mt-2">
             <h4 className="font-bold">Links</h4>
             <div className="flex gap-7 md:gap-0 md:mt-4 md:flex-col items-center justify-between">
               <p className="my-2">
@@ -101,7 +101,7 @@ function footer() {
               </p>
             </div>
           </div>
-          <div className="mt-16 basis-1/4 md:mt-4">
+          <div className="mt-16 basis-1/4 md:mt-2">
             <h4 className="font-bold">Contact Us</h4>
             <p className="my-5">Outlook: kolade2001@outlook.com</p>
             <p>Mobile: (+234) 8150672809</p>
