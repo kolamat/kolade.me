@@ -53,7 +53,7 @@ function footer() {
                 >
                   <FaGithub
                     size={30}
-                    className="bg-[#0ef] hover:bg-black rounded-full p-1 transition duration-500"
+                    className="bg-[#0ef] hover:bg-black rounded-lg p-1 transition duration-500"
                   />
                 </a>
               </p>
@@ -67,7 +67,7 @@ function footer() {
                 >
                   <FaLinkedin
                     size={30}
-                    className="bg-[#0ef] hover:bg-black rounded-full p-1 text-center transition duration-500"
+                    className="bg-[#0ef] hover:bg-slate-900 rounded-lg p-1 text-center transition duration-500"
                   />
                 </a>
               </p>
@@ -81,7 +81,7 @@ function footer() {
                 >
                   <FaInstagram
                     size={30}
-                    className="bg-[#0ef] hover:bg-black rounded-full p-1 text-center transition duration-500"
+                    className="bg-[#0ef] hover:bg-slate-900 rounded-lg p-1 text-center transition duration-500"
                   />
                 </a>
               </p>
@@ -95,7 +95,7 @@ function footer() {
                 >
                   <FaFacebook
                     size={30}
-                    className="rounded-full p-1 bg-[#0ef] hover:bg-black transition duration-500"
+                    className="rounded-lg p-1 bg-[#0ef] hover:bg-slate-900 transition duration-500"
                   />
                 </a>
               </p>
@@ -109,7 +109,7 @@ function footer() {
                 >
                   <FaXTwitter
                     size={30}
-                    className="rounded-full p-1 bg-[#0ef] hover:bg-black transition duration-500"
+                    className="rounded-lg p-1 bg-[#0ef] hover:bg-slate-900 transition duration-500"
                   />
                 </a>
               </p>
