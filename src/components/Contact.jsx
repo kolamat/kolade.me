@@ -70,7 +70,7 @@ export const Contact = () => {
         </form>
         <div>
           <img
-            className="w-[300] lg:w-[400px] h-[260px] mx-auto my-4 rounded-2xl hidden md:block"
+            className="w-[300] lg:w-[400px] h-[260px] mx-auto my-4 rounded-2xl hidden lg:block"
             src={email}
             alt="Kolade"
           />
