@@ -118,7 +118,7 @@ const hero = () => {
                 backSpeed={150}
                 cursorChar={"."}
                 loop={false}
-                shuffle
+                shuffle={false}
               />
             </span>
           </h4>
