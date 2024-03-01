@@ -42,7 +42,7 @@ function footer() {
           </div>
           <div className="md:flex md:flex-col text-center items- mt-16 basis-1/4 grid grid-cols-1 md:mt-4">
             <h4 className="font-bold">Links</h4>
-            <div className="flex gap-7 md:gap-0 md:flex-col items-center justify-between">
+            <div className="flex gap-7 md:gap-0 md:mt-4 md:flex-col items-center justify-between">
               <p className="my-2">
                 <a
                   className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
