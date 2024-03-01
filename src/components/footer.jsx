@@ -42,7 +42,7 @@ function footer() {
           </div>
           <div className="md:flex flex-col align-middle justify-center text-center items-center mt-16 basis-1/4 md:mt-0 grid grid-cols-2">
             <h4 className="font-bold col-span-2">Links</h4>
-            <div className="">
+            <div className="flex md:flex-col">
               <p className="my-2">
                 <a
                   className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
@@ -101,7 +101,7 @@ function footer() {
               </p>
             </div>
           </div>
-          <div className="mt-16 basis-1/4 md:mt-0">
+          <div className="mt-16 basis-1/4 md:mt-4">
             <h4 className="font-bold">Contact Us</h4>
             <p className="my-5">Outlook: kolade2001@outlook.com</p>
             <p>Mobile: (+234) 8150672809</p>
