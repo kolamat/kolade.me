@@ -7,7 +7,7 @@ function footer() {
     <section className="mt- mb-14 mx-auto">
       <div className="h-[1px] bg-[#0ef] rounded-sm flex justify-center" />
       <div className=" text-white flex justify-between sm:px-5 py-2 tracking-wide">
-        <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
+        <div className="justify-content mx-auto w-5/6 gap-16 md:flex align-top">
           <div className="mt-16 basis-1/2 md:mt-0">
             {/* <img src={logo} alt="logo" /> */}
             <a href="/">
@@ -42,7 +42,7 @@ function footer() {
           </div>
           <div className="md:flex flex-col align-middle justify-center text-center items-center mt-16 basis-1/4 md:mt-0 grid grid-cols-2">
             <h4 className="font-bold col-span-2">Links</h4>
-            <div className="flex md:flex-col">
+            <div className="flex gap-7 md:gap-0 md:flex-col col-span-2">
               <p className="my-2">
                 <a
                   className="rounded-full bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
@@ -101,7 +101,7 @@ function footer() {
               </p>
             </div>
           </div>
-          <div className="mt-16 basis-1/4 md:mt-4">
+          <div className="mt-16 basis-1/4 md:mt-">
             <h4 className="font-bold">Contact Us</h4>
             <p className="my-5">Outlook: kolade2001@outlook.com</p>
             <p>Mobile: (+234) 8150672809</p>
