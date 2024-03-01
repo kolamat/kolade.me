@@ -190,7 +190,7 @@ const hero = () => {
           </a>
         </div>
         <img
-          className="w-[] lg:w-[] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end place-self-center"
+          className="w-[400px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end place-self-center"
           src={kolade}
           alt="Kolade"
           loading="lazy"
