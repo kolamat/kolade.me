@@ -14,9 +14,9 @@ const hero = () => {
           <h3 className=" font-bold py-2">
             {/* lg:text-[50px] md:text-5xl sm:text-4xl text-3xl */}
             <svg
-              className=""
+              className="md:w-[339px]"
               id="logo"
-              width="340"
+              width="300"
               height="50"
               viewBox="0 0 1089 117"
               fill="none"
@@ -189,13 +189,13 @@ const hero = () => {
           >
             View CV
           </a>
-          <img
-            className="w-[400px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end place-self-center"
-            src={kolade}
-            alt="Kolade"
-            loading="lazy"
-          />
         </div>
+        <img
+          className="w-[400px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end place-self-center"
+          src={kolade}
+          alt="Kolade"
+          loading="lazy"
+        />
       </div>
     </div>
   );
