@@ -119,13 +119,8 @@ const hero = () => {
               <span className="capitalize text-[#E1986F]">
                 {" "}
                 <Typed
-                  strings={[
-                    "html5",
-                    "css3",
-                    "vanilla-Javascript",
-                    "react-Js",
-                    "next-Js",
-                  ]}
+                  className="capitalize"
+                  strings={["html5", "css3", "javascript", "react", "next-Js"]}
                   startDelay={5000}
                   typeSpeed={70}
                   backSpeed={150}
