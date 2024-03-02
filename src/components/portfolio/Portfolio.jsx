@@ -23,7 +23,7 @@ function Portfolio() {
           />
         </p>
         <img
-          className="rounded-2xl w-[310px] h-[300px] lg:w-[500px]"
+          className="rounded-2xl w-[50px] h-72 lg:w-[500px]"
           src={twoIphones}
           alt="Kolade"
           loading="lazy"
