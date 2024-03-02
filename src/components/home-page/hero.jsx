@@ -110,10 +110,21 @@ const hero = () => {
             </svg>
           </h3>
           <h4 className=" text-[23px] font-bold">
-            And I'm a&nbsp;
-            <span className=" text-[#0ef] underline">
+            I'm a{" "}
+            <span className="capitalize text-[#0ef] underline">
+              frontend engineer
+            </span>
+            <p>specialized in</p>
+            <p className="capitalize text-[#E1986F]">
+              {" "}
               <Typed
-                strings={["Frontend-Engineer", "Blogger", "Gamer"]}
+                strings={[
+                  "html5",
+                  "css3",
+                  "vanilla-Javascript",
+                  "react-Js",
+                  "next-Js",
+                ]}
                 startDelay={5000}
                 typeSpeed={70}
                 backSpeed={150}
@@ -121,18 +132,18 @@ const hero = () => {
                 loop={false}
                 shuffle={false}
               />
-            </span>
+            </p>
           </h4>
           <h4 className=" text-[23px] underline text-blue-400 font-bold">
             A little speech about my-seif
           </h4>
-          <p className="text-[20px] font-bold">
+          {/* <p className="text-[20px] font-bold">
             I Talk to people the way I want to be spoken to respect people as I
             wish to be respected. My status, religion, race, political views, or
             culture don't matter being a good person really is as simple as
             following the golden rule and treating others as I would like them
             to treat Me.
-          </p>
+          </p> */}
           <div className="flex gap-5 my-5">
             <a
               className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"

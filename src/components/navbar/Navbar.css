@@ -20,7 +20,7 @@
 
 .navbar.active {
   position: fixed;
-  background: rgb(19, 55, 99);
+  background: #133763;
   transition: ease-out all;
   transition-duration: 300ms;
 }
