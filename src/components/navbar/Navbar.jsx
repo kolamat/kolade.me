@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar active">
+    <nav className="navbar active">
       <a href="/" className="flex">
         <div className="flex items-center justify-between gap-1 sm:ml-6 md:pl-4">
           <svg
@@ -96,7 +96,7 @@ const Navbar = () => {
           </a>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 
