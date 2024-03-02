@@ -21,4 +21,6 @@
 .navbar.active {
   position: fixed;
   background: #0f172a;
+  transition: ease-out all;
+  transition-duration: 300ms;
 }
