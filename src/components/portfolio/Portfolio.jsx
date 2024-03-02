@@ -10,7 +10,7 @@ function Portfolio() {
       id="portfolio"
       className="w-full md:items-center m- text-white py-[7rem] md:px-4 bg-[#000300]"
     >
-      <h2 className="text-white md:text-[2.8rem] text-[31px] text-center font-bold py-1">
+      <h2 className="text-white md:text-[2.8rem] text-4xl text-center font-bold py-1">
         Latests{" "}
         <span className="text-[#0ef] text-center underline">Project</span>
       </h2>
