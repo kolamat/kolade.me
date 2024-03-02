@@ -15,7 +15,7 @@ const Navbar = () => {
   //   const acTive = `bg-blue`;
 
   const changeBckground = () => {
-    if (window.scrollY >= 90) {
+    if (window.scrollY >= 84) {
       setNavbar(true);
     } else {
       setNavbar(false);
