@@ -2,7 +2,7 @@ import laptopCard from "../assets/laptop-card.PNG";
 import makeUp from "../assets/Makeup.PNG";
 import mokLogo from "../assets/mok-logo.PNG";
 import mokLogo2 from "../assets/mok-logo2.PNG";
-import twoIphones from "../assets/two-iphones.PNG";
+import twoIphones from "../../assets/two-iphones.PNG";
 
 function Portfolio() {
   return (
