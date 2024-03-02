@@ -111,7 +111,7 @@ const hero = () => {
           </h3>
           <h4 className=" text-[23px] font-bold">
             And I'm a&nbsp;
-            <span className=" text-[#0ef]">
+            <span className=" text-[#0ef] underline">
               <Typed
                 strings={["Frontend-Engineer", "Blogger", "Gamer"]}
                 startDelay={5000}
