@@ -9,7 +9,7 @@ function about() {
           <h1 className="md:text-[2.8rem] text-4xl font-bold py-2">
             About <span className="text-[#0ef] underline">Me</span>
           </h1>
-          <h3 className=" text-[25px] font-bold">Frontend Developer</h3>
+          <h3 className=" text-[25px] font-bold">Frontend Engineer</h3>
           <p className="text-md font-bold my-2">
             I am an enthusiastic, self-motivated, reliable, responsible and hard
             working person. I am a mature team worker and adaptable to all

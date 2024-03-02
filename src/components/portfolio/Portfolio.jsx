@@ -17,31 +17,31 @@ function Portfolio() {
       <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-5 box-border py-11 px-4 place-items-center">
         <p>
           <img
-            className=" rounded-2xl w-[310px] h-72 lg:w-[500px] cursor-pointer"
+            className=" rounded-2xl w-[310px] h-[300px] lg:w-[500px] cursor-pointer"
             src={mokLogo}
             alt="Kolade"
           />
         </p>
         <img
-          className="rounded-2xl w-[310px] h-72 lg:w-[500px]"
+          className="rounded-2xl w-[310px] h-[300px] lg:w-[500px]"
           src={twoIphones}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className=" rounded-2xl w-[310px] h-72 lg:w-[500px]"
+          className=" rounded-2xl w-[310px] h-[300px] lg:w-[500px]"
           src={mokLogo2}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className=" rounded-2xl w-[310px] h-72 lg:w-[500px]"
+          className=" rounded-2xl w-[310px] h-[300px] lg:w-[500px]"
           src={laptopCard}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className=" rounded-2xl w-[310px] h-72 lg:w-[500px]"
+          className=" rounded-2xl w-[310px] h-[300px] lg:w-[500px]"
           src={makeUp}
           alt="Kolade"
           loading="lazy"
