@@ -23,4 +23,5 @@
   background: #133763;
   transition: ease-out all;
   transition-duration: 300ms;
+  border-bottom: solid 10px #9e5e16;
 }
