@@ -17,3 +17,10 @@
   padding-left: 1rem /* 16px */;
   padding-right: 1rem /* 16px */;
 }
+
+.navbar.active {
+  background: linear-gradient(
+    90deg,
+    rgb(rgb(45, 115, 138), rgb(30, 30, 215), rgb(251, 146, 146))
+  );
+}
