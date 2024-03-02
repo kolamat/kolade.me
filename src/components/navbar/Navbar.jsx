@@ -1,17 +1,27 @@
 import { useState } from "react";
 import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
-import "./Navbar.css";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  const navStyles = `fixed top-0 z-30 w-full py-6 flex left-0 bg-transparent justify-between items-center h-24 text-white mx-auto px-4`;
+  const acTive = `bg-blue`;
+
+  const changeBckground = () => {
+    console.log(window.scrollY);
+  };
+
+  window.addEventListener("scroll", changeBckground);
+
   return (
-    <nav className="navbar active">
+    <nav className={`${acTive} ${navStyles}`}>
+      {/* {`${flexBetween} w-full gap-11`} */}
       <a href="/" className="flex">
         <div className="flex items-center justify-between gap-1 sm:ml-6 md:pl-4">
           <svg
