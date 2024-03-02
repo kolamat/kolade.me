@@ -1,5 +1,5 @@
 import "aos/dist/aos.css";
-import kolade1 from "../assets/kolade1.jpg";
+import kolade1 from "../../assets/kolade1.jpg";
 
 function about() {
   return (
