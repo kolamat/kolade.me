@@ -114,24 +114,26 @@ const hero = () => {
             <span className="capitalize text-[#0ef] underline">
               frontend engineer
             </span>
-            <p>specialized in</p>
-            <p className="capitalize text-[#E1986F]">
-              {" "}
-              <Typed
-                strings={[
-                  "html5",
-                  "css3",
-                  "vanilla-Javascript",
-                  "react-Js",
-                  "next-Js",
-                ]}
-                startDelay={5000}
-                typeSpeed={70}
-                backSpeed={150}
-                cursorChar={"."}
-                loop={false}
-                shuffle={false}
-              />
+            <p>
+              specialized in{" "}
+              <span className="capitalize text-[#E1986F]">
+                {" "}
+                <Typed
+                  strings={[
+                    "html5",
+                    "css3",
+                    "vanilla-Javascript",
+                    "react-Js",
+                    "next-Js",
+                  ]}
+                  startDelay={5000}
+                  typeSpeed={70}
+                  backSpeed={150}
+                  cursorChar={"."}
+                  loop={false}
+                  shuffle={false}
+                />
+              </span>
             </p>
           </h4>
           <h4 className=" text-[23px] underline text-blue-400 font-bold">
