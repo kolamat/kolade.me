@@ -127,6 +127,7 @@ const hero = () => {
                   cursorChar={"."}
                   loop={true}
                   shuffle={false}
+                  remove={true}
                 />
               </span>
             </p>
