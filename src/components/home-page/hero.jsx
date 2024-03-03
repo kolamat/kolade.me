@@ -116,7 +116,7 @@ const hero = () => {
             </span>
             <p>
               specialized in{" "}
-              <span className="capitalize text-[#E1986F]">
+              <span className="text-[#E1986F]">
                 {" "}
                 <Typed
                   className="capitalize"
