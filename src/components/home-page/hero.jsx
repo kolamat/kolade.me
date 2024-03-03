@@ -125,7 +125,7 @@ const hero = () => {
                   typeSpeed={70}
                   backSpeed={150}
                   cursorChar={"."}
-                  loop={true}
+                  loop={false}
                   shuffle={false}
                 />
               </span>
