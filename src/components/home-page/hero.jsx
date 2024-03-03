@@ -132,7 +132,7 @@ const hero = () => {
             </p>
           </h4>
           <h4 className=" text-[23px] underline text-blue-400 font-bold">
-            A little speech about my-seif
+            Social Media Handle {/* A little speech about my-seif */}
           </h4>
           {/* <p className="text-[20px] font-bold">
             I Talk to people the way I want to be spoken to respect people as I
