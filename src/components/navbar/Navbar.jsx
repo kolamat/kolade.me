@@ -23,7 +23,6 @@ const Navbar = () => {
 
   return (
     <nav className={navbar ? "navbar active" : "navbar"}>
-      {/* {`${flexBetween} w-full gap-11`} */}
       <a href="/" className="flex">
         <div className="flex items-center justify-between gap-1 sm:ml-6 md:pl-4">
           <svg
