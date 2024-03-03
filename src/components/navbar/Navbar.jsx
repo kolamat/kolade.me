@@ -11,9 +11,6 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  //   const navStyles = `fixed top-0 z-30 w-full py-6 flex left-0 bg-transparent justify-between items-center h-24 text-white mx-auto px-4`;
-  //   const acTive = `bg-blue`;
-
   const changeBckground = () => {
     if (window.scrollY >= 90) {
       setNavbar(true);
