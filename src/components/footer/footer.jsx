@@ -2,6 +2,9 @@ import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 // import { FaArrowUp } from "react-icons/fa";
 
+const footerLinkStyles =
+  "rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1";
+
 function footer() {
   return (
     <section className="bg-slate-900">
@@ -53,7 +56,7 @@ function footer() {
                 </p>
                 <p className="my-2">
                   <a
-                    className={`${}`}
+                    className={`${footerLinkStyles}`}
                     href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -67,7 +70,7 @@ function footer() {
                 </p>
                 <p className="my-2">
                   <a
-                    className={`${}`}
+                    className={`${footerLinkStyles}`}
                     href="https://www.instagram.com/matiness200/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -81,7 +84,7 @@ function footer() {
                 </p>
                 <p className="my-2">
                   <a
-                    className={`${}`}
+                    className={`${footerLinkStyles}`}
                     href="https://www.facebook.com/kolade.matanmi.92"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -95,7 +98,7 @@ function footer() {
                 </p>
                 <p className="my-2">
                   <a
-                    className={`${}`}
+                    className={`${footerLinkStyles}`}
                     href="https://twitter.com/koladeMOK"
                     target="_blank"
                     rel="noopener noreferrer"
