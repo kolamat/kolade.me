@@ -53,7 +53,7 @@ function footer() {
                 </p>
                 <p className="my-2">
                   <a
-                    className="rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                    className={`${}`}
                     href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -67,7 +67,7 @@ function footer() {
                 </p>
                 <p className="my-2">
                   <a
-                    className="rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                    className={`${}`}
                     href="https://www.instagram.com/matiness200/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -81,7 +81,7 @@ function footer() {
                 </p>
                 <p className="my-2">
                   <a
-                    className="rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                    className={`${}`}
                     href="https://www.facebook.com/kolade.matanmi.92"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -95,7 +95,7 @@ function footer() {
                 </p>
                 <p className="my-2">
                   <a
-                    className="rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                    className={`${}`}
                     href="https://twitter.com/koladeMOK"
                     target="_blank"
                     rel="noopener noreferrer"
