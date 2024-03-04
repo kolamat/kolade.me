@@ -1,5 +1,8 @@
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { SiGmail, SiMicrosoftoutlook } from "react-icons/si";
+import { HiPhone } from "react-icons/hi2";
+
 // import { FaArrowUp } from "react-icons/fa";
 
 const footerLinkStyles =
@@ -101,8 +104,13 @@ function footer() {
             </div>
             <div className="mt-16 basis-1/4 md:mt-2">
               <h4 className="font-bold">Contact Us</h4>
-              <p className="my-5">Outlook: kolade2001@outlook.com</p>
-              <p>Mobile: (+234) 8150672809</p>
+              <p className="my-5">
+                <SiMicrosoftoutlook /> kolade2001@outlook.com
+              </p>
+              <p>
+                <HiPhone />
+                (+234) 8150672809
+              </p>
             </div>
           </div>
           {/* 
