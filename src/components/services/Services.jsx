@@ -4,7 +4,7 @@ import { FaCode } from "react-icons/fa";
 
 const servicesBut =
   "font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 transition duration-300 delay-75";
-const container12 =
+const container =
   "flex flex-col items-center border p-4 justify-between rounded-[15px] w-[100%] hover:border-sky-400 transition duration-300 delay-200";
 
 function Services() {
@@ -18,7 +18,7 @@ function Services() {
       </h1>
       {/* mx-auto grid md:grid-cols-3 gap-8 items-center */}
       <div className="grid lg:grid-cols-3 gap-4 mx-6 px-4">
-        <div className={`${container12}`}>
+        <div className={`${container}`}>
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaCode size={42} />
             Web Developer
@@ -31,7 +31,7 @@ function Services() {
             <a href="/">Read More</a>
           </button>
         </div>
-        <div className={`${container12}`}>
+        <div className={`${container}`}>
           <h3 className="flex flex-col items-center justify-center text-[27px] font-bold">
             <FaPaintRoller size={42} />
             Graphic Design
