@@ -14,7 +14,7 @@ function Services() {
       className="w-full text-white py-[7rem] md:px-4 bg-[#000300]"
     >
       <h1 className="md:text-[2.8rem] text-4xl w-full text- font-bold flex items-center justify-center gap-2 mb-6">
-        My<span className="text-[#0ef] underline">Services</span>
+        My<span className="text-[#60a5fa] underline">Services</span>
       </h1>
       {/* mx-auto grid md:grid-cols-3 gap-8 items-center */}
       <div className="grid lg:grid-cols-3 gap-4 mx-6 px-4">
