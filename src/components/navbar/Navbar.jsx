@@ -24,7 +24,8 @@ const Navbar = () => {
   const navMobile =
     "p-4 border-b border-gray-600 hover:text-[#147bf9] hover:font-extrabold hover:underline";
 
-    const navDesktop = "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline"
+  const navDesktop =
+    "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline";
 
   return (
     <nav className={navbar ? "navbar active" : "navbar"}>
@@ -52,19 +53,19 @@ const Navbar = () => {
       </a>
       <ul className="hidden md:flex font-bold text-xl">
         <a href="/">
-          <li className={`${}`}>Home</li>
+          <li className={`${navDesktop}`}>Home</li>
         </a>
         <a href="#about">
-          <li className={`${}`}>About</li>
+          <li className={`${navDesktop}`}>About</li>
         </a>
         <a href="#services">
-          <li className={`${}`}>Services</li>
+          <li className={`${navDesktop}`}>Services</li>
         </a>
         <a href="#portfolio">
-          <li className={`${}`}>Portfolio</li>
+          <li className={`${navDesktop}`}>Portfolio</li>
         </a>
         <a href="#contact">
-          <li className={`${}`}>Contact</li>
+          <li className={`${navDesktop}`}>Contact</li>
         </a>
       </ul>
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
