@@ -3,7 +3,7 @@ import { FaChartBar } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 
 const servicesBut =
-  "font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 transition duration-300 delay-75";
+  "font-semibold w-[98px] rounded-lg bg-[#60a5fa] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 transition duration-300 delay-75";
 const container =
   "flex flex-col items-center border p-4 justify-between rounded-[15px] w-[100%] hover:border-sky-400 transition duration-300 delay-200";
 
