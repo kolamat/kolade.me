@@ -21,7 +21,7 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeBckground);
 
-  const navMobile = "p-4 border-b border-gray-600 hover:text-[#147bf9] flex";
+  const navMobile = "p-4 border-b border-gray-600 hover:text-[#147bf9]";
 
   return (
     <nav className={navbar ? "navbar active" : "navbar"}>
