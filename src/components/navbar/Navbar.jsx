@@ -21,7 +21,10 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeBckground);
 
-  const navMobile = "p-4 border-b border-gray-600 hover:text-[#147bf9]";
+  const navMobile =
+    "p-4 border-b border-gray-600 hover:text-[#147bf9] hover:font-extrabold hover:underline";
+
+    const navDesktop = "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline"
 
   return (
     <nav className={navbar ? "navbar active" : "navbar"}>
@@ -49,19 +52,19 @@ const Navbar = () => {
       </a>
       <ul className="hidden md:flex font-bold text-xl">
         <a href="/">
-          <li className="p-4">Home</li>
+          <li className={`${}`}>Home</li>
         </a>
         <a href="#about">
-          <li className="p-4">About</li>
+          <li className={`${}`}>About</li>
         </a>
         <a href="#services">
-          <li className="p-4">Services</li>
+          <li className={`${}`}>Services</li>
         </a>
         <a href="#portfolio">
-          <li className="p-4">Portfolio</li>
+          <li className={`${}`}>Portfolio</li>
         </a>
         <a href="#contact">
-          <li className="p-4">Contact</li>
+          <li className={`${}`}>Contact</li>
         </a>
       </ul>
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
@@ -91,7 +94,7 @@ const Navbar = () => {
           </svg>
         </h1>
 
-        <ul className="pt-4 uppercase font-bold">
+        <ul className="pt-4 uppercase font-[500]">
           <>
             <a href="/">
               <li className={`${navMobile}`}>Home</li>
