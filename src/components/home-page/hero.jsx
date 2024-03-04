@@ -147,7 +147,7 @@ const hero = () => {
           </p> */}
           <div className="flex gap-5 my-5">
             <a
-              className={`{}`}
+              className={`${linkStyle}`}
               href="https://twitter.com/koladeMOK"
               target="_blank"
               rel="noopener noreferrer"
@@ -156,7 +156,7 @@ const hero = () => {
               <FaXTwitter size={20} />
             </a>
             <a
-              className={`{}`}
+              className={`${linkStyle}`}
               href="https://www.facebook.com/kolade.matanmi.92"
               target="_blank"
               rel="noopener noreferrer"
@@ -165,7 +165,7 @@ const hero = () => {
               <FaFacebook size={20} />
             </a>
             <a
-              className={`{}`}
+              className={`${linkStyle}`}
               href="https://www.instagram.com/matiness200/"
               target="_blank"
               rel="noopener noreferrer"
@@ -174,7 +174,7 @@ const hero = () => {
               <FaInstagram size={20} />
             </a>
             <a
-              className={`{}`}
+              className={`${linkStyle}`}
               href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
               target="_blank"
               rel="noopener noreferrer"
@@ -183,7 +183,7 @@ const hero = () => {
               <FaLinkedin size={20} />
             </a>
             <a
-              className={`{}`}
+              className={`${linkStyle}`}
               href="https://github.com/kolamat"
               target="_blank"
               rel="noopener noreferrer"
