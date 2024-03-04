@@ -5,9 +5,13 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import kolade from "../../assets/kolade.jpg";
 
+const mainHero = "mt-24 text-white bg-[#000300] pt-24 pb-16 px-1";
+const linkStyle =
+  "rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1";
+
 const hero = () => {
   return (
-    <div id="hero" className="mt-24 text-white bg-[#000300] pt-24 pb-16 px-1">
+    <div id="hero" className={`${mainHero}`}>
       <div className="md:mx-6 md:px-4 grid md:grid-cols-2">
         <div className="flex flex-col justify-center mx-3 space-y-2">
           <h1 className="font-bold text-3xl mt-4">Hello, it's me</h1>
@@ -143,7 +147,7 @@ const hero = () => {
           </p> */}
           <div className="flex gap-5 my-5">
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+              className={`{}`}
               href="https://twitter.com/koladeMOK"
               target="_blank"
               rel="noopener noreferrer"
@@ -152,7 +156,7 @@ const hero = () => {
               <FaXTwitter size={20} />
             </a>
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+              className={`{}`}
               href="https://www.facebook.com/kolade.matanmi.92"
               target="_blank"
               rel="noopener noreferrer"
@@ -161,7 +165,7 @@ const hero = () => {
               <FaFacebook size={20} />
             </a>
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+              className={`{}`}
               href="https://www.instagram.com/matiness200/"
               target="_blank"
               rel="noopener noreferrer"
@@ -170,7 +174,7 @@ const hero = () => {
               <FaInstagram size={20} />
             </a>
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+              className={`{}`}
               href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
               target="_blank"
               rel="noopener noreferrer"
@@ -179,7 +183,7 @@ const hero = () => {
               <FaLinkedin size={20} />
             </a>
             <a
-              className="rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+              className={`{}`}
               href="https://github.com/kolamat"
               target="_blank"
               rel="noopener noreferrer"
