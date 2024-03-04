@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import kolade from "../../assets/kolade.jpg";
 
 const mainHero = "mt-24 text-white bg-[#000300] pt-24 pb-16 px-1";
-const linkStyle =
+const heroLinkStyle =
   "rounded-full bg-[#0ef] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1";
 const cvBut =
   " font-bold w-[98px] rounded-lg bg-[#0ef] p-1 text-xl text-center text-black hover:text-white hover:bg-slate-900 hover:transition-[5s,ease-in] hover:bg-opacity-100 hover:translate-x-2";
@@ -149,7 +149,7 @@ const hero = () => {
           </p> */}
           <div className="flex gap-5 my-5">
             <a
-              className={`${linkStyle}`}
+              className={`${heroLinkStyle}`}
               href="https://twitter.com/koladeMOK"
               target="_blank"
               rel="noopener noreferrer"
@@ -158,7 +158,7 @@ const hero = () => {
               <FaXTwitter size={20} />
             </a>
             <a
-              className={`${linkStyle}`}
+              className={`${heroLinkStyle}`}
               href="https://www.facebook.com/kolade.matanmi.92"
               target="_blank"
               rel="noopener noreferrer"
@@ -167,7 +167,7 @@ const hero = () => {
               <FaFacebook size={20} />
             </a>
             <a
-              className={`${linkStyle}`}
+              className={`${heroLinkStyle}`}
               href="https://www.instagram.com/matiness200/"
               target="_blank"
               rel="noopener noreferrer"
@@ -176,7 +176,7 @@ const hero = () => {
               <FaInstagram size={20} />
             </a>
             <a
-              className={`${linkStyle}`}
+              className={`${heroLinkStyle}`}
               href="https://www.linkedin.com/in/kolade-matanmi-a695792a3/"
               target="_blank"
               rel="noopener noreferrer"
@@ -185,7 +185,7 @@ const hero = () => {
               <FaLinkedin size={20} />
             </a>
             <a
-              className={`${linkStyle}`}
+              className={`${heroLinkStyle}`}
               href="https://github.com/kolamat"
               target="_blank"
               rel="noopener noreferrer"
