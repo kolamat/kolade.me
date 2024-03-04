@@ -7,7 +7,7 @@ function about() {
       <div className="grid md:grid-cols-2 md:mx-6 md:px-4 text-white py-16">
         <div className="flex flex-col justify-center mx-3">
           <h1 className="md:text-[2.8rem] text-4xl font-bold py-2">
-            About <span className="text-[#0ef] underline">Me</span>
+            About <span className="text-[#60a5fa] underline">Me</span>
           </h1>
           <h3 className=" text-[25px] font-bold">Frontend Engineer</h3>
           <p className="text-md font-bold my-2">
