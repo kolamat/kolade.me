@@ -49,7 +49,7 @@ function Services() {
             traditional Marketing and is often considered an additional way for
             companies to approach consumers and understand their behavior.
           </p>
-          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 bg-opacity-100 hover:translate-y-2 transition duration-300 delay-75">
+          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 transition duration-300 delay-75">
             <a href="/">Read More</a>
           </button>
         </div>
