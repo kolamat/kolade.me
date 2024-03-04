@@ -21,6 +21,8 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeBckground);
 
+  const navMobile = "p-4 border-b border-gray-600"
+
   return (
     <nav className={navbar ? "navbar active" : "navbar"}>
       <a href="/" className="flex">
