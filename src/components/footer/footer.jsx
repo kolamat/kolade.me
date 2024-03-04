@@ -107,7 +107,11 @@ function footer() {
               <p className="my-5">
                 <SiMicrosoftoutlook /> kolade2001@outlook.com
               </p>
-              <p>
+              <p className="my-5">
+                <SiGmail />
+                matanmidupe004@gmail.com
+              </p>
+              <p className="my-5">
                 <HiPhone />
                 (+234) 8150672809
               </p>
