@@ -114,7 +114,7 @@ const Navbar = () => {
           </>
           <>
             <a href="#contact">
-              <li className="p-4">Contact</li>
+              <li className={`${navMobile} border-b-0`}>Contact</li>
             </a>
           </>
         </ul>
