@@ -21,7 +21,7 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeBckground);
 
-  const navMobile = "p-4 border-b border-gray-600"
+  const navMobile = "p-4 border-b border-gray-600";
 
   return (
     <nav className={navbar ? "navbar active" : "navbar"}>
@@ -93,16 +93,16 @@ const Navbar = () => {
 
         <ul className="pt-4 uppercase font-bold">
           <a href="/">
-            <li className={`${}`}>Home</li>
+            <li className={`${navMobile}`}>Home</li>
           </a>
           <a href="#about">
-            <li className={`${}`}>About</li>
+            <li className={`${navMobile}`}>About</li>
           </a>
           <a href="#services">
-            <li className={`${}`}>Services</li>
+            <li className={`${navMobile}`}>Services</li>
           </a>
           <a href="#portfolio">
-            <li className={`${}`}>Portfolio</li>
+            <li className={`${navMobile}`}>Portfolio</li>
           </a>
           <a href="#contact">
             <li className="p-4">Contact</li>
