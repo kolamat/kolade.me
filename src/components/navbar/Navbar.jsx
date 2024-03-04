@@ -91,16 +91,16 @@ const Navbar = () => {
 
         <ul className="pt-4 uppercase font-bold">
           <a href="/">
-            <li className="p-4 border-b border-gray-600 flex">Home</li>
+            <li className={`${}`}>Home</li>
           </a>
           <a href="#about">
-            <li className="p-4 border-b border-gray-600">About</li>
+            <li className={`${}`}>About</li>
           </a>
           <a href="#services">
-            <li className="p-4 border-b border-gray-600">Services</li>
+            <li className={`${}`}>Services</li>
           </a>
           <a href="#portfolio">
-            <li className="p-4 border-b border-gray-600">Portfolio</li>
+            <li className={`${}`}>Portfolio</li>
           </a>
           <a href="#contact">
             <li className="p-4">Contact</li>
