@@ -6,9 +6,9 @@ import { HiPhone } from "react-icons/hi2";
 // import { FaArrowUp } from "react-icons/fa";
 
 const footerLinkStyles =
-  "rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1";
+  "rounded-lg bg-[#60a5fa] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1";
 const footerLinkIcon =
-  "bg-[#0ef] hover:bg-slate-800 rounded-full p-1 transition duration-500";
+  "bg-[#60a5fa] hover:bg-slate-800 rounded-full p-1 transition duration-500";
 
 function footer() {
   return (
