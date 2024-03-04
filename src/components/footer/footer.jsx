@@ -114,7 +114,7 @@ function footer() {
         </div>
       </div>
       <p className="block text-white text-center my- bg-slate-950 text-[13px]">
-        Copyright &copy; 2024 by&nbsp;
+        &copy; 2024 by&nbsp;
         <strong>
           <span>M.J.K</span>
         </strong>
