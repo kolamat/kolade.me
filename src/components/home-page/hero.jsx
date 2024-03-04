@@ -27,7 +27,7 @@ const hero = () => {
               viewBox="0 0 1089 117"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              font-family="Bebas Neue"
+              font-family=' "Roboto", sans-serif'
             >
               {/* Letter K  */}
               <path
