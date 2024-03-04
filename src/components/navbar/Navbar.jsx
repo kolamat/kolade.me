@@ -92,21 +92,31 @@ const Navbar = () => {
         </h1>
 
         <ul className="pt-4 uppercase font-bold">
-          <a href="/">
-            <li className={`${navMobile}`}>Home</li>
-          </a>
-          <a href="#about">
-            <li className={`${navMobile}`}>About</li>
-          </a>
-          <a href="#services">
-            <li className={`${navMobile}`}>Services</li>
-          </a>
-          <a href="#portfolio">
-            <li className={`${navMobile}`}>Portfolio</li>
-          </a>
-          <a href="#contact">
-            <li className="p-4">Contact</li>
-          </a>
+          <>
+            <a href="/">
+              <li className={`${navMobile}`}>Home</li>
+            </a>
+          </>
+          <>
+            <a href="#about">
+              <li className={`${navMobile}`}>About</li>
+            </a>
+          </>
+          <>
+            <a href="#services">
+              <li className={`${navMobile}`}>Services</li>
+            </a>
+          </>
+          <>
+            <a href="#portfolio">
+              <li className={`${navMobile}`}>Portfolio</li>
+            </a>
+          </>
+          <>
+            <a href="#contact">
+              <li className="p-4">Contact</li>
+            </a>
+          </>
         </ul>
       </div>
     </nav>
