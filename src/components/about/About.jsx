@@ -17,10 +17,10 @@ function about() {
             environment as well as using own initiative. I am able to work well
             under pressure and adhere to strict deadlines.
           </p>
-          <button>
+          <button className=" ali">
             <a
               href="/"
-              className=" font-semibold w-[98px] rounded-lg bg-[#60a5fa] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-x-2 hover:transition-[0.5s,ease]"
+              className=" font-semibold w-[98px] rounded-lg bg-[#60a5fa] p-2 text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-x-2 hover:transition-[0.5s,ease]"
             >
               Read More
             </a>
