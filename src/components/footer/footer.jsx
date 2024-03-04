@@ -4,6 +4,8 @@ import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 const footerLinkStyles =
   "rounded-lg bg-[#0ef] text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1";
+const footerLinkIcon =
+  "bg-[#0ef] hover:bg-slate-800 rounded-full p-1 transition duration-500";
 
 function footer() {
   return (
@@ -48,10 +50,7 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Github"
                   >
-                    <FaGithub
-                      size={30}
-                      className="bg-[#0ef] hover:bg-slate-800 rounded-full p-1 transition duration-500"
-                    />
+                    <FaGithub size={30} className={`${footerLinkIcon}`} />
                   </a>
                 </p>
                 <p className="my-2">
@@ -62,10 +61,7 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Linkedin"
                   >
-                    <FaLinkedin
-                      size={30}
-                      className="bg-[#0ef] hover:bg-slate-800 rounded-full p-1 text-center transition duration-500"
-                    />
+                    <FaLinkedin size={30} className={`${footerLinkIcon}`} />
                   </a>
                 </p>
                 <p className="my-2">
@@ -76,10 +72,7 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Instagram"
                   >
-                    <FaInstagram
-                      size={30}
-                      className="bg-[#0ef] hover:bg-slate-800 rounded-full p-1 text-center transition duration-500"
-                    />
+                    <FaInstagram size={30} className={`${footerLinkIcon}`} />
                   </a>
                 </p>
                 <p className="my-2">
@@ -90,10 +83,7 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Facebook"
                   >
-                    <FaFacebook
-                      size={30}
-                      className="rounded-full p-1 bg-[#0ef] hover:bg-slate-800 transition duration-500"
-                    />
+                    <FaFacebook size={30} className={`${footerLinkIcon}`} />
                   </a>
                 </p>
                 <p className="my-2">
@@ -104,10 +94,7 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Twitter"
                   >
-                    <FaXTwitter
-                      size={30}
-                      className="rounded-full p-1 bg-[#0ef] hover:bg-slate-800 transition duration-500"
-                    />
+                    <FaXTwitter size={30} className={`${footerLinkIcon}`} />
                   </a>
                 </p>
               </div>
