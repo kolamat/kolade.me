@@ -2,6 +2,9 @@ import { FaPaintRoller } from "react-icons/fa6";
 import { FaChartBar } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 
+const servicesBut =
+  "font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 transition duration-300 delay-75";
+
 function Services() {
   return (
     <div
@@ -22,7 +25,7 @@ function Services() {
             a web developer's job is to use the basic building blocks of the web
             ( like HTML, CSS and JavaScript ) to create something complex.
           </p>
-          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 transition duration-300 delay-75">
+          <button className={`${servicesBut}`}>
             <a href="/">Read More</a>
           </button>
         </div>
@@ -35,7 +38,7 @@ function Services() {
             Graphic design is a craft where professionals create visual content
             to communicate messages. Lorem ipsum dolor.
           </p>
-          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 transition duration-300 delay-75">
+          <button className={`${servicesBut}`}>
             <a href="/">Read More</a>
           </button>
         </div>
@@ -49,7 +52,7 @@ function Services() {
             traditional Marketing and is often considered an additional way for
             companies to approach consumers and understand their behavior.
           </p>
-          <button className="font-semibold w-[98px] rounded-lg bg-[#0ef] p-2 text-center text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-y-2 transition duration-300 delay-75">
+          <button className={`${servicesBut}`}>
             <a href="/">Read More</a>
           </button>
         </div>
