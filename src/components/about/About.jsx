@@ -20,7 +20,7 @@ function about() {
           <button className="text-left block w-24">
             <a
               href="/"
-              className=" font-semibold w-24 rounded-lg bg-[#60a5fa] p-2 text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-x-2 hover:transition-[0.5s,ease]"
+              className=" font-semibold w-24 rounded-lg bg-[#60a5fa] p-2 text-black hover:text-white hover:bg-slate-900 hover:bg-opacity-100 hover:translate-x-6 transition duration-300"
             >
               Read More
             </a>

@@ -51,7 +51,7 @@ const Navbar = () => {
           </h1> */}
         </div>
       </a>
-      <ul className="hidden md:flex font-[300] text-lg">
+      <ul className="hidden md:flex font-[400] text-lg">
         <a href="/">
           <li className={`${navDesktop}`}>Home</li>
         </a>
