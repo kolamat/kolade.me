@@ -17,31 +17,31 @@ function Portfolio() {
       <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-5 box-border py-11 px-4 place-items-center">
         <p>
           <img
-            className=" rounded-2xl w-[310px] h-[300px] lg:w-[300px] cursor-pointer"
+            className="rounded-2xl w-[310px] h-96 lg:w-96 object-cover hover:object-scale-down hover:transform hover:transition hover:duration-500 cursor-pointer"
             src={mokLogo}
             alt="Kolade"
           />
         </p>
         <img
-          className="rounded-2xl w-[310px] h-[300px] lg:w-[300px]"
+          className="rounded-2xl w-[310px] h-96 lg:w-96 object-cover hover:object-scale-down hover:transform hover:transition hover:duration-500 cursor-pointer"
           src={twoIphones}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className=" rounded-2xl w-[310px] h-[300px] lg:w-[300px]"
+          className="rounded-2xl w-[310px] h-96 lg:w-96 object-cover hover:object-scale-down hover:transform hover:transition hover:duration-500 cursor-pointer"
           src={mokLogo2}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className=" rounded-2xl w-[310px] h-[300px] lg:w-[300px]"
+          className="rounded-2xl w-[310px] h-96 lg:w-96 object-cover hover:object-scale-down hover:transform hover:transition hover:duration-500 cursor-pointer"
           src={laptopCard}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className=" rounded-2xl w-[310px] h-[300px] lg:w-[300px]"
+          className="rounded-2xl w-[310px] h-96 lg:w-96 object-cover hover:object-scale-down hover:transform hover:transition hover:duration-500 cursor-pointer"
           src={makeUp}
           alt="Kolade"
           loading="lazy"
