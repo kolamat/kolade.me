@@ -54,7 +54,11 @@ const Navbar = () => {
         </div>
       </a>
       <div className="hidden md:flex font-[300] text-md">
-        <ul>{<li className={`${navDesktop}`}></li>}</ul>
+        <ul>
+          {Menus.map((menu) => (
+            <li className={`${navDesktop}`}></li>
+          ))}
+        </ul>
       </div>
       {/* <ul className="hidden md:flex font-[300] text-md">
         <a href="/">
