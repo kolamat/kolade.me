@@ -9,7 +9,7 @@ const mainHero = "mt-24 text-white bg-[#000300] pt-24 pb-16 px-1";
 const heroLinkStyle =
   "rounded-full bg-[#60a5fa] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1";
 const cvBut =
-  " font-bold w-[98px] rounded-lg bg-[#60a5fa] p-1 text-xl text-center text-black hover:text-white hover:bg-slate-900 hover:transition hover:bg-opacity-100 hover:translate-x-2";
+  " font-bold w-[98px] rounded-lg bg-[#60a5fa] p-1 text-xl text-center text-black hover:text-white hover:bg-slate-900 hover:transition duration-300 hover:translate-y-2";
 
 const hero = () => {
   return (
@@ -194,15 +194,17 @@ const hero = () => {
               <FaGithub size={20} />
             </a>
           </div>
-          <a
-            className={`${cvBut}`}
-            //   kolamat.github.io/resuming/
-            href="#home"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View CV
-          </a>
+          <button className={`${cvBut}`}>
+            <a
+              //   className={`${cvBut}`}
+              //   kolamat.github.io/resuming/
+              href="#home"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View CV
+            </a>
+          </button>
         </div>
         <img
           className="w-[310px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end place-self-center"
