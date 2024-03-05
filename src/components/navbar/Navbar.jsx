@@ -3,6 +3,8 @@ import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import "./Navbar.css";
 
+const Menu = ["Home", "About", "Services", "Portfolio", "Contact"];
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [navbar, setNavbar] = useState(false);
@@ -51,7 +53,7 @@ const Navbar = () => {
           </h1> */}
         </div>
       </a>
-      <ul className="hidden md:flex font-[300] text-md">
+      {/* <ul className="hidden md:flex font-[300] text-md">
         <a href="/">
           <li className={`${navDesktop}`}>Home</li>
         </a>
@@ -66,8 +68,8 @@ const Navbar = () => {
         </a>
         <a href="#contact">
           <li className={`${navDesktop}`}>Contact</li>
-        </a>
-      </ul>
+        </a> 
+      </ul>*/}
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
       </div>
