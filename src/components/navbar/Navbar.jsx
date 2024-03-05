@@ -55,7 +55,7 @@ const Navbar = () => {
       </a>
       <div className="hidden md:flex font-[300] text-md">
         <ul>
-          <li></li>
+          <li className={`${navDesktop}`}></li>
         </ul>
       </div>
       {/* <ul className="hidden md:flex font-[300] text-md">
