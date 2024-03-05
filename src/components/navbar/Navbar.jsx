@@ -5,7 +5,7 @@ import menu from "./index";
 import Link from "./index";
 import "./Navbar.css";
 
-const Menus = ["Home", "About", "Services", "Portfolio", "Contact"];
+// const Menus = ["Home", "About", "Services", "Portfolio", "Contact"];
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -55,7 +55,7 @@ const Navbar = () => {
           </h1> */}
         </div>
       </a>
-      <menu className="hidden md:flex font-[300] text-md">
+      {/* <menu className="hidden md:flex font-[300] text-md">
         <ul className="hidden md:flex font-[300] text-md">
           {Menus.map((menu) => (
             <li key={menu} className={`${navDesktop}`}>
@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-      </menu>
+      </menu> */}
       {/* <ul className="hidden md:flex font-[300] text-md">
         <a href="/">
           <li className={`${navDesktop}`}>Home</li>
