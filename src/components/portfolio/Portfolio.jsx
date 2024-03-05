@@ -4,6 +4,8 @@ import mokLogo from "../../assets/mok-logo.PNG";
 import mokLogo2 from "../../assets/mok-logo2.PNG";
 import twoIphones from "../../assets/two-iphones.PNG";
 
+const imageStyles = "rounded-2xl w-[310px] h-[300px] lg:w-[300px]";
+
 function Portfolio() {
   return (
     <div
@@ -14,34 +16,30 @@ function Portfolio() {
         Latests{" "}
         <span className="text-[#60a5fa] text-center underline">Project</span>
       </h2>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-2 box-border py-11 px-4 place-items-center">
+      <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 mx-6 gap-2 box-border py-11 px-4 place-items-center">
         <p>
-          <img
-            className="rounded-2xl w-[310px] h-[300px] lg:w-[300px]"
-            src={mokLogo}
-            alt="Kolade"
-          />
+          <img className={`${imageStyles}`} src={mokLogo} alt="Kolade" />
         </p>
         <img
-          className="rounded-2xl w-[310px] h-[300px] lg:w-[300px]"
+          className={`${imageStyles}`}
           src={twoIphones}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className="rounded-2xl w-[310px] h-[300px] lg:w-[300px]"
+          className={`${imageStyles}`}
           src={mokLogo2}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className="rounded-2xl w-[310px] h-[300px] lg:w-[300px]"
+          className={`${imageStyles}`}
           src={laptopCard}
           alt="Kolade"
           loading="lazy"
         />
         <img
-          className="rounded-2xl w-[310px] h-[300px] lg:w-[300px]"
+          className={`${imageStyles}`}
           src={makeUp}
           alt="Kolade"
           loading="lazy"
