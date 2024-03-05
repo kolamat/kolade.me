@@ -3,7 +3,7 @@ import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import "./Navbar.css";
 
-const Menu = ["Home", "About", "Services", "Portfolio", "Contact"];
+const Menus = ["Home", "About", "Services", "Portfolio", "Contact"];
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -54,9 +54,7 @@ const Navbar = () => {
         </div>
       </a>
       <div className="hidden md:flex font-[300] text-md">
-        <ul>
-          <li className={`${navDesktop}`}></li>
-        </ul>
+        <ul>{<li className={`${navDesktop}`}></li>}</ul>
       </div>
       {/* <ul className="hidden md:flex font-[300] text-md">
         <a href="/">
