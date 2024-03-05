@@ -64,7 +64,7 @@ const Navbar = () => {
           ))}
         </ul>
       </menu> */}
-      {/* <ul className="hidden md:flex font-[300] text-md">
+      <ul className="hidden md:flex font-[300] text-md">
         <a href="/">
           <li className={`${navDesktop}`}>Home</li>
         </a>
@@ -79,8 +79,8 @@ const Navbar = () => {
         </a>
         <a href="#contact">
           <li className={`${navDesktop}`}>Contact</li>
-        </a> 
-      </ul>*/}
+        </a>
+      </ul>
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
       </div>
