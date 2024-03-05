@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
+import menu from "./index";
 import "./Navbar.css";
 
 const Menus = ["Home", "About", "Services", "Portfolio", "Contact"];
@@ -53,13 +54,15 @@ const Navbar = () => {
           </h1> */}
         </div>
       </a>
-      <div className="hidden md:flex font-[300] text-md">
-        <ul>
+      <a className="hidden md:flex font-[300] text-md">
+        <ul className="hidden md:flex font-[300] text-md">
           {Menus.map((menu) => (
-            <li className={`${navDesktop}`}></li>
+            <li key={menu} className={`${navDesktop}`}>
+              {menu}
+            </li>
           ))}
         </ul>
-      </div>
+      </a>
       {/* <ul className="hidden md:flex font-[300] text-md">
         <a href="/">
           <li className={`${navDesktop}`}>Home</li>
