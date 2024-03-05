@@ -25,7 +25,7 @@ const Navbar = () => {
     "p-4 border-b border-gray-600 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
 
   const navDesktop =
-    "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration";
+    "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
 
   return (
     <nav className={navbar ? "navbar active" : "navbar"}>
