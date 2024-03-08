@@ -110,7 +110,7 @@ const Navbar = () => {
 
         <ul className="pt-4 uppercase font-[500]">
           <>
-            <a href="/">
+            <a href="#hero">
               <li className={`${navMobile}`}>Home</li>
             </a>
           </>
