@@ -47,8 +47,8 @@ function Portfolio() {
         <div className="relative inline-block">
           <p
             className="p-5 absolute z-30 flex
-     flex-col items-center justify-center
-    whitespace-normal text-center text-white
+    h-[340px] w-[460px] flex-col items-center justify-center
+    whitespace-normal text-center text-[#60a5fa]
     opacity-0 transition duration-500 hover:opacity-90"
           >
             hi
