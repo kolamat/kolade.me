@@ -65,7 +65,7 @@ const Navbar = () => {
         </ul>
       </menu> */}
       <ul className="hidden md:flex font-[300] text-md">
-        <a href="/">
+        <a href="#hero">
           <li className={`${navDesktop}`}>Home</li>
         </a>
         <a href="#about">
