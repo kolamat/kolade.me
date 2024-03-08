@@ -49,7 +49,7 @@ function Portfolio() {
             className="p-5 absolute z-30 flex
     h-full w-full items-center justify-center flex-col underline
     whitespace-normal text-center text-[#6a60fa]
-    opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black"
+    opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg"
           >
             Logo_Design
             <a className="font-medium text-lg text-[#60a8fa]" href="/">
