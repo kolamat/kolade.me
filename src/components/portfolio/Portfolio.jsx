@@ -44,7 +44,7 @@ function Portfolio() {
           alt="Kolade"
           loading="lazy"
         />
-        <p className="text-white font-extrabold absolute w-full h-full top-0 flex flex-col justify-center text-center items-center text-2xl gap-2">
+        <div>
           <svg
             className="hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300"
             width="250"
@@ -59,7 +59,7 @@ function Portfolio() {
               stroke-width="9"
             />
           </svg>
-        </p>
+        </div>
       </div>
     </div>
   );
