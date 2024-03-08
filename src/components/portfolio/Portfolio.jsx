@@ -47,11 +47,11 @@ function Portfolio() {
         <div className="relative inline-block">
           <p
             className="p-5 absolute z-30 flex
-    h-[2px] w-[460px] flex-col items-center justify-center
-    whitespace-normal text-center text-[#60a5fa]
-    opacity-0 transition duration-500 hover:opacity-90"
+    h-[290px] w-[350px] flex-col items-center justify-center
+    whitespace-normal text-center text-[#6a60fa]
+    opacity-0 transition duration-500 hover:opacity-90 bg-[#]"
           >
-            hi
+            Logo_Design
           </p>
           <svg
             className="hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300"
