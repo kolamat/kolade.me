@@ -44,7 +44,15 @@ function Portfolio() {
           alt="Kolade"
           loading="lazy"
         />
-        <div>
+        <div className="relative inline-block">
+          <p
+            className="p-5 absolute z-30 flex
+    h-[380px] w-[450px] flex-col items-center justify-center
+    whitespace-normal text-center text-white
+    opacity-0 transition duration-500 hover:opacity-90"
+          >
+            hi
+          </p>
           <svg
             className="hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300"
             width="250"
