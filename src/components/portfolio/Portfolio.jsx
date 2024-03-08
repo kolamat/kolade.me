@@ -52,7 +52,10 @@ function Portfolio() {
     opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black"
           >
             Logo_Design
-            <a className="no-underline font-medium text-lg" href="">
+            <a
+              className="no-underline hover:overline font-medium text-lg"
+              href="/"
+            >
               Contact for your business-logo designs
             </a>
           </p>
