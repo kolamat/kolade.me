@@ -17,9 +17,7 @@ function Portfolio() {
         <span className="text-[#60a5fa] text-center underline">Project</span>
       </h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-2 box-border py-11 px-4 place-items-center">
-        <p>
-          <img className={`${imageStyles}`} src={mokLogo} alt="Kolade" />
-        </p>
+        <img className={`${imageStyles}`} src={mokLogo} alt="Kolade" />
         <img
           className={`${imageStyles}`}
           src={twoIphones}
@@ -53,7 +51,7 @@ function Portfolio() {
           >
             <span className="underline"> Logo_Design</span>
             <a
-              className="font-medium text-lg text-[#60a8fa] no-underline hover:underline"
+              className="font-medium text-lg text-[#60a8fa] no-underline hover:underline hover:transition hover:duration-500"
               href="/"
             >
               Contact for your business-logo designs
