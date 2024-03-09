@@ -51,7 +51,7 @@ function Portfolio() {
           >
             <span className="underline"> Logo_Design</span>
             <a
-              className="font-medium text-lg text-[#60a8fa] no-underline hover:underline hover:transition hover:duration-500"
+              className="font-medium text-lg text-[#60a8fa] no-underline hover:underline"
               href="/"
             >
               Contact for your business-logo designs
