@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <nav className={navbar ? "navbar active" : "navbar"}>
-      <a href="/" className="flex">
+      <a href="/" title="HomePage" className="flex">
         <div className="flex items-center justify-between gap-1 sm:ml-6 md:pl-4">
           <svg
             className="hover:fill-[#147bf9] hover:stroke-[#E1986F] transition duration-300"
