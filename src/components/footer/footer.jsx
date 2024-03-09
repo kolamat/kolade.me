@@ -19,9 +19,9 @@ function footer() {
           <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
             <div className="mt-16 basis-1/2 md:mt-0">
               {/* <img src={logo} alt="logo" /> */}
-              <a href="/">
+              <a href="/" className="flex w-12">
                 <svg
-                  className="hover:stroke-[#FFC132] mt-2"
+                  className="hover:fill-[#147bf9] mt-2"
                   width="50"
                   height="28"
                   viewBox="0 0 94 108"
