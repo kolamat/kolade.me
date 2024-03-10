@@ -19,7 +19,7 @@
 }
 
 .navbar.active {
-  position: sticky;
+  position: static;
   background: #133763;
   transition: ease-out all;
   transition-duration: 300ms;
