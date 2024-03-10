@@ -12,10 +12,10 @@ function Portfolio() {
       id="portfolio"
       className="w-full md:items-center m- text-white py-[7rem] md:px-4 bg-[#000300]"
     >
-      <h2 className="text-white md:text-[2.8rem] text-4xl text-center font-bold py-1 sticky top-12">
+      <h1 className="text-white md:text-[2.8rem] text-4xl text-center font-bold py-1 sticky top-12">
         Latests{" "}
         <span className="text-[#60a5fa] text-center underline">Project</span>
-      </h2>
+      </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-2 box-border py-11 px-4 place-items-center">
         <img className={`${imageStyles}`} src={mokLogo} alt="Kolade" />
         <img
