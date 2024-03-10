@@ -49,7 +49,7 @@ function Portfolio() {
     whitespace-normal text-center text-[#6a60fa]
     opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg"
           >
-            <span className="underline"> Logo_Design</span>
+            <span className="absolute underline"> Logo_Design</span>
             <a
               className="font-medium text-lg text-[#60a8fa] no-underline hover:underline"
               href="/"
