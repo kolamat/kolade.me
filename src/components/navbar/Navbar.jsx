@@ -26,7 +26,7 @@ const Navbar = () => {
   window.addEventListener("scroll", changeBckground);
 
   const navDesktop =
-    "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200 relative";
+    "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200 fixed";
 
   const navMobile =
     "p-4 border-b border-gray-600 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
