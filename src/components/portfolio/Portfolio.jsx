@@ -42,7 +42,7 @@ function Portfolio() {
           alt="Kolade"
           loading="lazy"
         />
-        <div className="relative inline-block bottom-0 left-0">
+        <div className="relative inline-block box-border overflow-hidden">
           <p
             className="p-5 absolute z-30 flex
     h-full w-full items-center justify-center flex-col
