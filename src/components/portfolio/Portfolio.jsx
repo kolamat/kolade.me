@@ -42,7 +42,7 @@ function Portfolio() {
           alt="Kolade"
           loading="lazy"
         />
-        <div className="relative inline-block box-border overflow-hidden hover:translate-y-0">
+        <div className="relative inline-block box-border overflow-hidden hover:translate-y-0 hover:grid">
           <svg
             // className="hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300 hover:blur-sm"
             width="250"
