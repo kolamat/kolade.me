@@ -43,20 +43,6 @@ function Portfolio() {
           loading="lazy"
         />
         <div className="relative inline-block">
-          <p
-            className="p-5 absolute z-30 flex
-    h-full w-full items-center justify-center flex-col
-    whitespace-normal text-center text-[#6a60fa]
-    opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg translate-y-5"
-          >
-            <span className="underline"> Logo_Design</span>
-            <a
-              className="font-medium text-lg text-[#60a8fa] no-underline hover:underline"
-              href="/"
-            >
-              Contact for your business-logo designs
-            </a>
-          </p>
           <svg
             // className="hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300 hover:blur-sm"
             width="250"
@@ -71,6 +57,20 @@ function Portfolio() {
               stroke-width="9"
             />
           </svg>
+          <p
+            className="p-5 absolute z-30 flex
+    h-full w-full items-center justify-center flex-col
+    whitespace-normal text-center text-[#6a60fa]
+    opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg translate-y-5"
+          >
+            <span className="underline"> Logo_Design</span>
+            <a
+              className="font-medium text-lg text-[#60a8fa] no-underline hover:underline"
+              href="/"
+            >
+              Contact for your business-logo designs
+            </a>
+          </p>
         </div>
       </div>
     </div>
