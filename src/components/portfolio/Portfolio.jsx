@@ -47,7 +47,7 @@ function Portfolio() {
             className="p-5 absolute z-30 flex
     h-full w-full items-center justify-center flex-col
     whitespace-normal text-center text-[#6a60fa]
-    opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg"
+    opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg translate-y-5"
           >
             <span className="underline"> Logo_Design</span>
             <a
