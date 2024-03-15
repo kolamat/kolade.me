@@ -11,7 +11,7 @@ import "./Navbar.css";
 
 // }
 
-function Navbar() {
+function Navbar(params) {
   const [nav, setNav] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
