@@ -11,7 +11,7 @@ import "./Navbar.css";
 
 // }
 
-function Navbar(params) {
+function Navbar() {
   const [nav, setNav] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
@@ -19,7 +19,7 @@ function Navbar(params) {
     setNav(!nav);
   };
 
-  const menuRef = useRef(true);
+  let menuRef = useRef(true);
 
   useEffect(() => {
     document.addEventListener("mousedown", (Event) => {
