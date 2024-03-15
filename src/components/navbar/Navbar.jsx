@@ -18,8 +18,8 @@ const Navbar = () => {
   const menuRef = useRef;
 
   useEffect(() => {
-    document.addEventListener("mousedown", () => {
-      if (!menuRef.current.contain(Event.target)) {
+    document.addEventListener("mousedown", (Event) => {
+      if (!Event.target) {
         setNav(false);
       }
     });
