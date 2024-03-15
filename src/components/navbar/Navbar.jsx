@@ -19,7 +19,7 @@ function Navbar() {
     setNav(!nav);
   };
 
-  const menuRef = useRef();
+  const menuRef = useRef(true);
 
   useEffect(() => {
     document.addEventListener("mousedown", (Event) => {
