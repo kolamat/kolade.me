@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import menu from "./index";
@@ -14,6 +14,12 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", () => {
+      setNav(false);
+    });
+  });
 
   const changeBckground = () => {
     if (window.scrollY >= 90) {
