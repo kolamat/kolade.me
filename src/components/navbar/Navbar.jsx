@@ -19,7 +19,7 @@ const Navbar = () => {
 
   useEffect(() => {
     document.addEventListener("mousedown", () => {
-      if (!menuRef.current.contain(event.target)) {
+      if (!menuRef.current.contain(Event.target)) {
         setNav(false);
       }
     });
@@ -95,6 +95,7 @@ const Navbar = () => {
         {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
       </div>
       <div
+        ref={menuRef}
         className={
           nav
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in duration-700"
