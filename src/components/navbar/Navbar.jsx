@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import menu from "./index";
@@ -15,9 +15,13 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const menuRef = useRef;
+
   useEffect(() => {
     document.addEventListener("mousedown", () => {
-      setNav(false);
+      if (!menuRef.current.contain(event.target)) {
+        setNav(false);
+      }
     });
   });
 
