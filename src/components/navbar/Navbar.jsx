@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 import menu from "./index";
@@ -7,32 +7,13 @@ import "./Navbar.css";
 
 // const Menus = ["Home", "About", "Services", "Portfolio", "Contact"];
 
-// function name(params) {
-
-// }
-
-function Navbar() {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
-
-  let menuRef = useRef(true);
-
-  useEffect(() => {
-    let handler = (Event) => {
-      if (!menuRef.current.contain(Event.target)) {
-        setNav(false);
-      }
-      document.addEventListener("mousedown", handler);
-    };
-
-    return { }  {
-        document.removeEventListener("mousedown", handler);
-    };
-  });
 
   const changeBckground = () => {
     if (window.scrollY >= 90) {
@@ -104,7 +85,6 @@ function Navbar() {
         {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
       </div>
       <div
-        ref={menuRef}
         className={
           nav
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in duration-700"
@@ -158,6 +138,6 @@ function Navbar() {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
