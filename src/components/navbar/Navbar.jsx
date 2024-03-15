@@ -22,11 +22,16 @@ function Navbar() {
   let menuRef = useRef(true);
 
   useEffect(() => {
-    document.addEventListener("mousedown", (Event) => {
+    let handler = (Event) => {
       if (!menuRef.current.contain(Event.target)) {
         setNav(false);
       }
-    });
+      document.addEventListener("mousedown", handler);
+    };
+
+    return { } => {
+        document.removeEventListener("mousedown", handler)
+    }
   });
 
   const changeBckground = () => {
