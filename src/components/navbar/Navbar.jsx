@@ -29,9 +29,9 @@ function Navbar() {
       document.addEventListener("mousedown", handler);
     };
 
-    return { } => {
-        document.removeEventListener("mousedown", handler)
-    }
+    return { }  {
+        document.removeEventListener("mousedown", handler);
+    };
   });
 
   const changeBckground = () => {
