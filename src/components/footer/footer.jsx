@@ -126,11 +126,11 @@ function footer() {
         </div>
       </div>
       <p className="block sticky bottom-[1px] text-white text-center my- bg-slate-950 text-[13px]">
-        &copy; 2024 by&nbsp;
+        &copy; 2024&nbsp;
         <strong>
-          <span>M.J.K</span>
+          <span>M.J.K, </span>
         </strong>
-        &nbsp; All Rights Reserved.
+        inc.&nbsp;All Rights Reserved.
       </p>
     </section>
   );
