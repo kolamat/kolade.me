@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
-import menu from "./index";
-import Link from "./index";
+// import menu from "./index";
+// import Link from "./index";
 import "./Navbar.css";
 
 // const Menus = ["Home", "About", "Services", "Portfolio", "Contact"];
