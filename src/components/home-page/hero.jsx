@@ -206,12 +206,12 @@ const hero = () => {
             </a>
           </button>
         </div>
-        {/* <img
+        <img
           className="w-[310px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end place-self-center"
           src="/favicon1.svg"
           alt="Kolade"
           loading="lazy"
-        /> */}
+        />
       </div>
     </div>
   );
