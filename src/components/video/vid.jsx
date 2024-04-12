@@ -19,6 +19,20 @@ const vid = () => {
     //     // Start playing the video
     //     videoPlayer.play();
     //   }
+    // .video-container {
+    //     width: 100%;
+    //     max-width: 600px; /* Adjust as needed */
+    //     margin: 0 auto;
+    //   }
+
+    //   .video-list {
+    //     margin-top: 10px;
+    //   }
+
+    //   .video-list button {
+    //     margin-right: 10px;
+    //     cursor: pointer;
+    //   }
   );
 };
 
