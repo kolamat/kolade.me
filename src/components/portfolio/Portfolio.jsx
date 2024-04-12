@@ -17,7 +17,7 @@ function Portfolio() {
         <span className="text-[#60a5fa] text-center underline">Project</span>
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-2 box-border py-11 px-4 place-items-center">
-        <img className={`${imageStyles}`} src={mokLogo} alt="Kolade" />
+        <img className={`${imageStyles} z--10`} src={mokLogo} alt="Kolade" />
         <img
           className={`${imageStyles}`}
           src={twoIphones}
@@ -58,7 +58,7 @@ function Portfolio() {
             </a>
           </p>
           <svg
-            // className="hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300 hover:blur-sm"
+            className="hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300 hover:blur-sm"
             width="250"
             height="300"
             viewBox="0 0 94 108"
