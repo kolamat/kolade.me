@@ -12,6 +12,13 @@ const vid = () => {
         Add more buttons for additional videos
       </div>
     </div>
+    // function playVideo(videoSrc) {
+    //     var videoPlayer = document.getElementById('videoPlayer');
+    //     // Set the selected video source
+    //     videoPlayer.src = videoSrc;
+    //     // Start playing the video
+    //     videoPlayer.play();
+    //   }
   );
 };
 
