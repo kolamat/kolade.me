@@ -3,7 +3,8 @@ import makeUp from "../../assets/Makeup.PNG";
 import mokLogo from "../../assets/mok-logo.PNG";
 import mokLogo2 from "../../assets/mok-logo2.PNG";
 import twoIphones from "../../assets/two-iphones.PNG";
-import Image from "next/image";
+import kDesign from "../../assets/k-design.svg";
+// import Image from "next/image";
 
 const imageStyles = "rounded-2xl w-[310px] h-[300px] lg:w-[300px]";
 
@@ -58,7 +59,7 @@ function Portfolio() {
               Contact for your business-logo designs
             </a>
           </p>
-          <Image src="" alt="" width={40} height={1} />
+          <img src={kDesign} alt="k-logo" width={40} height={1} />
         </div>
       </div>
     </div>
