@@ -10,13 +10,17 @@ function Portfolio() {
   return (
     <div
       id="portfolio"
-      className="w-full md:items-center m- text-white py-[7rem] md:px-4 bg-[#000300]"
+      className={`w-full md:items-center m- text-white py-[7rem] md:px-4 bg-[#000300]`}
     >
-      <h1 className="text-white md:text-[2.8rem] text-4xl text-center font-bold py-1 sticky top-12">
+      <h1
+        className={`text-white md:text-[2.8rem] text-4xl text-center font-bold py-1 sticky top-12`}
+      >
         Latests{" "}
         <span className="text-[#60a5fa] text-center underline">Project</span>
       </h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-2 box-border py-11 px-4 place-items-center">
+      <div
+        className={`grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-2 box-border py-11 px-4 place-items-center`}
+      >
         <img className={`${imageStyles} z--10`} src={mokLogo} alt="Kolade" />
         <img
           className={`${imageStyles}`}
@@ -42,23 +46,23 @@ function Portfolio() {
           alt="Kolade"
           loading="lazy"
         />
-        <div className="relative inline-block">
+        <div className={`relative inline-block`}>
           <p
-            className="p-5 absolute z-30 flex
+            className={`p-5 absolute z-30 flex
     h-full w-full items-center justify-center flex-col
     whitespace-normal text-center text-[#6a60fa]
-    opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg"
+    opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg`}
           >
-            <span className="underline"> Logo_Design</span>
+            <span className={`underline`}> Logo_Design</span>
             <a
-              className="font-medium text-lg text-[#60a8fa] no-underline hover:underline"
+              className={`font-medium text-lg text-[#60a8fa] no-underline hover:underline`}
               href="/"
             >
               Contact for your business-logo designs
             </a>
           </p>
           <svg
-            className="hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300 hover:blur-sm"
+            className={`hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300 hover:blur-sm`}
             width="250"
             height="300"
             viewBox="0 0 94 108"
