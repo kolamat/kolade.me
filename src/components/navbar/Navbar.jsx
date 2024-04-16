@@ -94,17 +94,12 @@ const Navbar = () => {
           <li className={`${navDesktop}`}>Contact</li>
         </a>
       </ul>
-      <button onClick={handleToggle}>
-        <div onClick={handleNav} className={`block md:hidden cursor-pointer`}>
-          {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
-        </div>
-      </button>
+      {/* <button onClick={handleToggle}> */}
+      <div onClick={handleToggle} className={`block md:hidden cursor-pointer`}>
+        {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
+      </div>
+      {/* </button> */}
       {isOpen && (
-        // <div id="yourElementId">
-        //   {/* Content of the element */}
-        //   Click outside of this element to close.
-        //   <h1>i don tire</h1>
-        // </div>
         <div
           id="kolade"
           className={
