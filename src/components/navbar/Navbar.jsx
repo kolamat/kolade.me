@@ -25,27 +25,6 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeBckground);
 
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      // Check if the click is outside of any specific element
-      // Replace `yourElementId` with the actual ID of the element you want to check
-      if (!document.getElementById("root").contains(e.target)) {
-        // Close your elements here
-        // For example:
-        // closeElement1();
-        // closeElement2();
-      }
-    };
-
-    // Add event listener to the body when the component mounts
-    document.body.addEventListener("click", handleClickOutside);
-
-    // Cleanup the event listener when the component unmounts
-    return () => {
-      document.body.removeEventListener("click", handleClickOutside);
-    };
-  }, []);
-
   const navDesktop =
     "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
 
