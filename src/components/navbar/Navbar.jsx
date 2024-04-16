@@ -23,6 +23,39 @@ const Navbar = () => {
     }
   };
 
+  //   const ClickOutsideHandler = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (!document.getElementById("yourElementId").contains(event.target)) {
+        // Close your elements here
+        setIsOpen(false);
+      }
+    };
+
+    document.body.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.body.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  //   return (
+  //     <div>
+  //       <button onClick={handleToggle}>Toggle Element</button>
+  //       {isOpen && (
+  //         <div id="yourElementId">
+  //           {/* Content of the element */}
+  //           Click outside of this element to close.
+  //         </div>
+  //       )}
+  //     </div>
+
   window.addEventListener("scroll", changeBckground);
 
   const navDesktop =
