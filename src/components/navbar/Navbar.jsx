@@ -29,7 +29,7 @@ const Navbar = () => {
     const handleClickOutside = (e) => {
       // Check if the click is outside of any specific element
       // Replace `yourElementId` with the actual ID of the element you want to check
-      if (!document.getElementById("root").contains(e.target)) {
+      if (!document.getElementById("Nav").contains(e.target)) {
         // Close your elements here
         // For example:
         // closeElement1();
@@ -53,7 +53,7 @@ const Navbar = () => {
     "p-4 border-b border-gray-600 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
 
   return (
-    <nav className={navbar ? "navbar active" : "navbar"}>
+    <nav id="Nav" className={navbar ? "navbar active" : "navbar"}>
       <a href="/" title="HomePage" className="flex">
         <div
           className={`flex items-center justify-between gap-1 sm:ml-6 md:pl-4`}
