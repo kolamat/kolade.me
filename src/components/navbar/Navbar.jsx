@@ -28,7 +28,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (!document.getElementById("yourElementId").contains(event.target)) {
+      if (!document.getElementById("Root").contains(event.target)) {
         // Close your elements here
         setIsOpen(false);
       }
@@ -121,6 +121,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div
+          id="Root"
           className={
             nav
               ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in duration-700"
