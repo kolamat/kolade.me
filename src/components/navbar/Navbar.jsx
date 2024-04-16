@@ -94,7 +94,6 @@ const Navbar = () => {
           <li className={`${navDesktop}`}>Contact</li>
         </a>
       </ul>
-      <button onClick={handleToggle}> l </button>
       <div onClick={handleNav} className={`block md:hidden cursor-pointer`}>
         {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
       </div>
@@ -122,35 +121,34 @@ const Navbar = () => {
             />
           </svg>
         </h1>
-        {isOpen && (
-          <ul id="kolade" className={`pt-4 uppercase font-[500]`}>
-            <>
-              <a href="#hero">
-                <li className={`${navMobile}`}>Home</li>
-              </a>
-            </>
-            <>
-              <a href="#about">
-                <li className={`${navMobile}`}>About</li>
-              </a>
-            </>
-            <>
-              <a href="#services">
-                <li className={`${navMobile}`}>Services</li>
-              </a>
-            </>
-            <>
-              <a href="#portfolio">
-                <li className={`${navMobile}`}>Portfolio</li>
-              </a>
-            </>
-            <>
-              <a href="#contact">
-                <li className={`${navMobile} border-b-0`}>Contact</li>
-              </a>
-            </>
-          </ul>
-        )}
+
+        <ul id="kolade" className={`pt-4 uppercase font-[500]`}>
+          <>
+            <a href="#hero">
+              <li className={`${navMobile}`}>Home</li>
+            </a>
+          </>
+          <>
+            <a href="#about">
+              <li className={`${navMobile}`}>About</li>
+            </a>
+          </>
+          <>
+            <a href="#services">
+              <li className={`${navMobile}`}>Services</li>
+            </a>
+          </>
+          <>
+            <a href="#portfolio">
+              <li className={`${navMobile}`}>Portfolio</li>
+            </a>
+          </>
+          <>
+            <a href="#contact">
+              <li className={`${navMobile} border-b-0`}>Contact</li>
+            </a>
+          </>
+        </ul>
       </div>
     </nav>
   );
