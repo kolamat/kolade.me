@@ -16,9 +16,9 @@ const Navbar = () => {
   const changeBckground = () => {
     if (window.scrollY >= 90) {
       setNavbar(true);
+      setIsOpen(!isOpen);
     } else {
       setNavbar(false);
-      setIsOpen(!isOpen);
     }
   };
 
@@ -29,10 +29,10 @@ const Navbar = () => {
   useEffect(() => {
     const handleClickOutside = (event) => {
       console.log("Clicked outside");
-      const element = document.getElementById("yourElementId");
-      //   console.log("Element:", element);
+      const element = document.getElementById("kolade");
+      console.log("Element:", element);
       if (element && !element.contains(event.target)) {
-        // console.log("Closing element");
+        console.log("Closing element");
         setIsOpen(false);
       }
     };
@@ -121,7 +121,7 @@ const Navbar = () => {
         {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
       </div>
       <div
-        id="Root"
+        id="kolade"
         className={
           nav
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in duration-700"
