@@ -26,10 +26,10 @@ const Navbar = () => {
   window.addEventListener("scroll", changeBckground);
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
+    const handleClickOutside = (e) => {
       // Check if the click is outside of any specific element
       // Replace `yourElementId` with the actual ID of the element you want to check
-      if (!document.getElementById("yourElementId").contains(event.target)) {
+      if (!document.getElementById("root").contains(e.target)) {
         // Close your elements here
         // For example:
         // closeElement1();
