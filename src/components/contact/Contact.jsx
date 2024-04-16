@@ -31,11 +31,13 @@ export const Contact = () => {
   };
 
   return (
-    <div id="contact" className="md:px-4 py-11 m- bg-[#000300]">
-      <h1 className="md:text-[2.8rem] text-white text-center text-4xl font-bold py-2 sticky top-12">
+    <div id="contact" className={`md:px-4 py-11 m- bg-[#000300]`}>
+      <h1
+        className={`md:text-[2.8rem] text-white text-center text-4xl font-bold py-2 sticky top-12`}
+      >
         Contact <span className="text-[#60a5fa] underline">Me</span>
       </h1>
-      <div className="grid lg:flex gap-4 items-center mx-6 px-4">
+      <div className={`grid lg:flex gap-4 items-center mx-6 px-4`}>
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -65,12 +67,12 @@ export const Contact = () => {
           <input
             type="submit"
             value="Send"
-            className="hover:bg-slate-900 bg-opacity-100 hover:translate-y-2 hover:text-white transition duration-300 delay-75"
+            className={`hover:bg-slate-900 bg-opacity-100 hover:translate-y-2 hover:text-white transition duration-300 delay-75`}
           />
         </form>
         <div>
           <img
-            className="w-[300] lg:w-[400px] h-[260px] mx-auto my-4 rounded-2xl hidden lg:block"
+            className={`w-[300] lg:w-[400px] h-[260px] mx-auto my-4 rounded-2xl hidden lg:block`}
             src={email}
             alt="Kolade"
           />
