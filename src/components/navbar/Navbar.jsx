@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CiMenuKebab } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
 // import menu from "./index";
@@ -24,6 +24,27 @@ const Navbar = () => {
   };
 
   window.addEventListener("scroll", changeBckground);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Check if the click is outside of any specific element
+      // Replace `yourElementId` with the actual ID of the element you want to check
+      if (!document.getElementById("yourElementId").contains(event.target)) {
+        // Close your elements here
+        // For example:
+        // closeElement1();
+        // closeElement2();
+      }
+    };
+
+    // Add event listener to the body when the component mounts
+    document.body.addEventListener("click", handleClickOutside);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      document.body.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
 
   const navDesktop =
     "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
