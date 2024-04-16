@@ -55,9 +55,11 @@ const Navbar = () => {
   return (
     <nav className={navbar ? "navbar active" : "navbar"}>
       <a href="/" title="HomePage" className="flex">
-        <div className="flex items-center justify-between gap-1 sm:ml-6 md:pl-4">
+        <div
+          className={`flex items-center justify-between gap-1 sm:ml-6 md:pl-4`}
+        >
           <svg
-            className="hover:fill-[#147bf9] hover:stroke-[#E1986F] transition duration-300"
+            className={`hover:fill-[#147bf9] hover:stroke-[#E1986F] transition duration-300`}
             width="38"
             height="30"
             viewBox="0 0 94 108"
@@ -85,7 +87,7 @@ const Navbar = () => {
           ))}
         </ul>
       </menu> */}
-      <ul className="hidden md:flex font-[300] text-md">
+      <ul className={`hidden md:flex font-[300] text-md`}>
         <a href="#hero">
           <li className={`${navDesktop}`}>Home</li>
         </a>
@@ -102,7 +104,7 @@ const Navbar = () => {
           <li className={`${navDesktop}`}>Contact</li>
         </a>
       </ul>
-      <div onClick={handleNav} className="block md:hidden cursor-pointer">
+      <div onClick={handleNav} className={`block md:hidden cursor-pointer`}>
         {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
       </div>
       <div
@@ -112,9 +114,9 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <h1 className="w-full text-3xl p-3 font-bold text-[#00df9a]">
+        <h1 className={`w-full text-3xl p-3 font-bold text-[#00df9a]`}>
           <svg
-            className="hover:fill-[#147bf9] hover:stroke-[#E1986F] transition duration-300"
+            className={`hover:fill-[#147bf9] hover:stroke-[#E1986F] transition duration-300`}
             width="38"
             height="30"
             viewBox="0 0 94 108"
@@ -129,7 +131,7 @@ const Navbar = () => {
           </svg>
         </h1>
 
-        <ul className="pt-4 uppercase font-[500]">
+        <ul className={`pt-4 uppercase font-[500]`}>
           <>
             <a href="#hero">
               <li className={`${navMobile}`}>Home</li>
