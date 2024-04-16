@@ -12,16 +12,18 @@ const footerLinkIcon =
 
 function footer() {
   return (
-    <section className="bg-slate-900">
-      <div className="mb-8">
-        <div className="h-[1px] bg-[#0ef] rounded-sm flex justify-center" />
-        <div className=" text-white flex justify-between sm:px-8 pt-8 tracking-wide">
-          <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
-            <div className="mt-16 basis-1/2 md:mt-0">
+    <section className={`bg-slate-900`}>
+      <div className={`mb-8`}>
+        <div className={`h-[1px] bg-[#0ef] rounded-sm flex justify-center`} />
+        <div
+          className={` text-white flex justify-between sm:px-8 pt-8 tracking-wide`}
+        >
+          <div className={`justify-content mx-auto w-5/6 gap-16 md:flex`}>
+            <div className={`mt-16 basis-1/2 md:mt-0`}>
               {/* <img src={logo} alt="logo" /> */}
-              <a href="/" title="HomePage" className="flex w-6">
+              <a href="/" title="HomePage" className={`flex w-6`}>
                 <svg
-                  className="hover:fill-[#147bf9] mt-2"
+                  className={`hover:fill-[#147bf9] mt-2`}
                   width="50"
                   height="28"
                   viewBox="0 0 94 108"
@@ -35,19 +37,21 @@ function footer() {
                   />
                 </svg>
               </a>
-              <p className="my-5">
+              <p className={`my-5`}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, when an unknown printer took a
                 gallery of type and scrambled it to make a type specimen book.
               </p>
             </div>
-            <div className="md:flex md:flex-col text-center items- mt-16 basis-1/4 grid grid-cols-1 md:mt-2">
-              <h4 className="font-bold mb-5 md:m-0">Links</h4>
+            <div
+              className={`md:flex md:flex-col text-center items- mt-16 basis-1/4 grid grid-cols-1 md:mt-2`}
+            >
+              <h4 className={`font-bold mb-5 md:m-0`}>Links</h4>
               <div className="flex gap-7 md:gap-0 md:mt-4 md:flex-col items-center justify-between">
-                <p className="my-2">
+                <p className={`my-2`}>
                   <a
-                    className="rounded-lg text-black hover:text-white hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1"
+                    className={`rounded-lg text-black hover:text-white hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1`}
                     href="https://github.com/kolamat"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -102,16 +106,16 @@ function footer() {
                 </p>
               </div>
             </div>
-            <div className="mt-16 basis-1/4 md:mt-2">
-              <h4 className="font-bold">Contact Us</h4>
-              <p className="my-5">
+            <div className={`mt-16 basis-1/4 md:mt-2`}>
+              <h4 className={`font-bold`}>Contact Us</h4>
+              <p className={`my-5`}>
                 <SiMicrosoftoutlook /> kolade2001@outlook.com
               </p>
-              <p className="my-5">
+              <p className={`my-5`}>
                 <SiGmail />
                 matanmidupe004@gmail.com
               </p>
-              <p className="my-5">
+              <p className={`my-5`}>
                 <HiPhone />
                 (+234) 8150672809
               </p>
@@ -125,7 +129,9 @@ function footer() {
       </div> */}
         </div>
       </div>
-      <p className="block sticky bottom-[1px] text-white text-center my- bg-slate-950 text-[13px]">
+      <p
+        className={`block sticky bottom-[1px] text-white text-center my- bg-slate-950 text-[13px]`}
+      >
         &copy; 2024&nbsp;
         <strong>
           <span>M.J.K, </span>
