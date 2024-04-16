@@ -28,15 +28,15 @@ const Navbar = () => {
   }, []);
 
   const handleToggle = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(!isOpen, !nav);
   };
 
   const [nav, setNav] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
-  const handleNav = () => {
-    setNav(!nav);
-  };
+  //   const handleNav = () => {
+  //     setNav(!nav);
+  //   };
 
   const changeBckground = () => {
     if (window.scrollY >= 90) {
