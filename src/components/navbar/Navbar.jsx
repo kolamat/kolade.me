@@ -94,11 +94,12 @@ const Navbar = () => {
           <li className={`${navDesktop}`}>Contact</li>
         </a>
       </ul>
-      <div onClick={handleNav} className={`block md:hidden cursor-pointer`}>
-        {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
-      </div>
+      <button onClick={handleToggle}>
+        <div onClick={handleNav} className={`block md:hidden cursor-pointer`}>
+          {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
+        </div>
+      </button>
       <div
-        onClick={handleToggle}
         id="kolade"
         className={
           nav
