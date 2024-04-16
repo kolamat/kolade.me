@@ -23,39 +23,6 @@ const Navbar = () => {
     }
   };
 
-  //   const ClickOutsideHandler = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (!document.getElementById("Root").contains(e.target)) {
-        // Close your elements here
-        setIsOpen(false);
-      }
-    };
-
-    document.body.addEventListener("click", handleClickOutside);
-
-    return () => {
-      document.body.removeEventListener("click", handleClickOutside);
-    };
-  }, []);
-
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
-  };
-
-  //   return (
-  //     <div>
-  //       <button onClick={handleToggle}>Toggle Element</button>
-  //       {isOpen && (
-  //         <div id="yourElementId">
-  //           {/* Content of the element */}
-  //           Click outside of this element to close.
-  //         </div>
-  //       )}
-  //     </div>
-
   window.addEventListener("scroll", changeBckground);
 
   const navDesktop =
@@ -65,9 +32,7 @@ const Navbar = () => {
     "p-4 border-b border-gray-600 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
 
   return (
-    <nav onClick={handleToggle} className={navbar ? "navbar active" : "navbar"}>
-      {isOpen && (
-
+    <nav className={navbar ? "navbar active" : "navbar"}>
       <a href="/" title="HomePage" className="flex">
         <div
           className={`flex items-center justify-between gap-1 sm:ml-6 md:pl-4`}
@@ -92,7 +57,7 @@ const Navbar = () => {
           </h1> */}
         </div>
       </a>
-      
+
       {/* <menu className="hidden md:flex font-[300] text-md">
         <ul className="hidden md:flex font-[300] text-md">
           {Menus.map((menu) => (
@@ -175,8 +140,6 @@ const Navbar = () => {
           </>
         </ul>
       </div>
-      ) 
-      };
     </nav>
   );
 };
