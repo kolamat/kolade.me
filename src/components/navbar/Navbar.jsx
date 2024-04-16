@@ -6,30 +6,13 @@ import { IoClose } from "react-icons/io5";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  const [navbar, setNavbar] = useState(false);
-
-  const handleNav = () => {
-    setNav(!nav);
-  };
-
-  const changeBckground = () => {
-    if (window.scrollY >= 90) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
-  window.addEventListener("scroll", changeBckground);
-
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
       console.log("Clicked outside");
       const element = document.getElementById("kolade");
-      console.log("Element:", element);
+      //   console.log("Element:", element);
       if (element && !element.contains(event.target)) {
         console.log("Closing element");
         setIsOpen(false);
@@ -47,6 +30,23 @@ const Navbar = () => {
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
+
+  const [nav, setNav] = useState(false);
+  const [navbar, setNavbar] = useState(false);
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
+  const changeBckground = () => {
+    if (window.scrollY >= 90) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBckground);
 
   const navDesktop =
     "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
@@ -74,22 +74,9 @@ const Navbar = () => {
               stroke-width="9"
             />
           </svg>
-
-          {/* <h1 className="w-full text-4xl font-bold text-[#147bf9]">
-            Portfolio
-          </h1> */}
         </div>
       </a>
 
-      {/* <menu className="hidden md:flex font-[300] text-md">
-        <ul className="hidden md:flex font-[300] text-md">
-          {Menus.map((menu) => (
-            <li key={menu} className={`${navDesktop}`}>
-              {menu}
-            </li>
-          ))}
-        </ul>
-      </menu> */}
       <ul className={`hidden md:flex font-[300] text-md`}>
         <a href="#hero">
           <li className={`${navDesktop}`}>Home</li>
@@ -111,6 +98,7 @@ const Navbar = () => {
         {!nav ? <CiMenuKebab size={23} /> : <IoClose size={23} />}
       </div>
       <div
+        onClick={handleToggle}
         id="kolade"
         className={
           nav
