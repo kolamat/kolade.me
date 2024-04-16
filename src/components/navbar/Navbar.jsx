@@ -18,10 +18,45 @@ const Navbar = () => {
       setNavbar(true);
     } else {
       setNavbar(false);
+      setIsOpen(!isOpen);
     }
   };
 
   window.addEventListener("scroll", changeBckground);
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      console.log("Clicked outside");
+      const element = document.getElementById("yourElementId");
+      //   console.log("Element:", element);
+      if (element && !element.contains(event.target)) {
+        // console.log("Closing element");
+        setIsOpen(false);
+      }
+    };
+
+    //   useEffect(() => {
+    //     const handleClickOutside = (e) => {
+    //       console.log("Element Clicked");
+    //       if (!document.getElementById("kolade").contains(e.target)) {
+    //         console.log("Closing element");
+    //         setIsOpen(false);
+    //       }
+    //     };
+
+    document.body.addEventListener("click", handleClickOutside);
+
+    return () => {
+      console.log("Cleanup");
+      document.body.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
+  //   const handleToggle = () => {
+  //     setIsOpen(!isOpen);
+  //   };
 
   const navDesktop =
     "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
