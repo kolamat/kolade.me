@@ -16,7 +16,6 @@ const Navbar = () => {
   const changeBckground = () => {
     if (window.scrollY >= 90) {
       setNavbar(true);
-      setIsOpen(!isOpen);
     } else {
       setNavbar(false);
     }
@@ -37,15 +36,6 @@ const Navbar = () => {
       }
     };
 
-    //   useEffect(() => {
-    //     const handleClickOutside = (e) => {
-    //       console.log("Element Clicked");
-    //       if (!document.getElementById("kolade").contains(e.target)) {
-    //         console.log("Closing element");
-    //         setIsOpen(false);
-    //       }
-    //     };
-
     document.body.addEventListener("click", handleClickOutside);
 
     return () => {
@@ -54,9 +44,9 @@ const Navbar = () => {
     };
   }, []);
 
-  //   const handleToggle = () => {
-  //     setIsOpen(!isOpen);
-  //   };
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
 
   const navDesktop =
     "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
