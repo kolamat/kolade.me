@@ -14,13 +14,13 @@ const cvBut =
 const hero = () => {
   return (
     <div id="hero" className={`${mainHero}`}>
-      <div className="md:mx-6 md:px-4 grid md:grid-cols-2">
-        <div className="flex flex-col justify-center mx-3 space-y-2">
-          <h1 className="font-bold text-3xl mt-4">Hello, it's me</h1>
-          <h3 className=" font-bold py-2">
+      <div className={`md:mx-6 md:px-4 grid md:grid-cols-2`}>
+        <div className={`flex flex-col justify-center mx-3 space-y-2`}>
+          <h1 className={`font-bold text-3xl mt-4`}>Hello, it's me</h1>
+          <h3 className={`font-bold py-2`}>
             {/* lg:text-[50px] md:text-5xl sm:text-4xl text-3xl */}
             <svg
-              className="md:w-[339px]"
+              className={`md:w-[339px]`}
               id="logo"
               width="300"
               height="50"
@@ -115,17 +115,17 @@ const hero = () => {
               />
             </svg>
           </h3>
-          <h4 className=" text-[23px] font-bold">
+          <h4 className={`text-[23px] font-bold`}>
             I'm a{" "}
-            <span className="capitalize text-[#60a5fa] underline">
+            <span className={`capitalize text-[#60a5fa] underline`}>
               frontend engineer
             </span>
             <p>
               specialized in{" "}
-              <span className="text-[#60a5fa]">
+              <span className={`text-[#60a5fa]`}>
                 {" "}
                 <Typed
-                  className="capitalize"
+                  className={`capitalize`}
                   strings={["html5", "css3", "javascript", "react", "next-Js"]}
                   startDelay={5000}
                   typeSpeed={70}
@@ -137,7 +137,7 @@ const hero = () => {
               </span>
             </p>
           </h4>
-          <h4 className=" text-[23px] underline text-blue-400 font-bold">
+          <h4 className={`text-[23px] underline text-blue-400 font-bold`}>
             Social Media Handle {/* A little speech about my-seif */}
           </h4>
           {/* <p className="text-[20px] font-bold">
@@ -147,7 +147,7 @@ const hero = () => {
             following the golden rule and treating others as I would like them
             to treat Me.
           </p> */}
-          <div className="flex gap-5 my-5">
+          <div className={`flex gap-5 my-5`}>
             <a
               className={`${heroLinkStyle}`}
               href="https://twitter.com/koladeMOK"
@@ -207,7 +207,7 @@ const hero = () => {
           </button>
         </div>
         <img
-          className="w-[310px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end place-self-center"
+          className={`w-[310px] lg:w-[500px] lg:mx-4 mx-auto my-4 rounded-2xl lg:place-self-end place-self-center`}
           src={kolade}
           alt="Kolade"
           loading="lazy"
