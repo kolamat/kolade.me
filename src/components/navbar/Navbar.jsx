@@ -6,31 +6,6 @@ import { IoClose } from "react-icons/io5";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      console.log("Clicked outside");
-      const element = document.getElementById("kolade");
-      //   console.log("Element:", element);
-      if (element && !element.contains(event.target)) {
-        console.log("Closing element");
-        setIsOpen(false);
-      }
-    };
-
-    document.body.addEventListener("click", handleClickOutside);
-
-    return () => {
-      console.log("Cleanup");
-      document.body.removeEventListener("click", handleClickOutside);
-    };
-  }, []);
-
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
-  };
-
   const [nav, setNav] = useState(false);
   const [navbar, setNavbar] = useState(false);
 
