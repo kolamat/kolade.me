@@ -5,8 +5,6 @@ import { IoClose } from "react-icons/io5";
 // import Link from "./index";
 import "./Navbar.css";
 
-// const Menus = ["Home", "About", "Services", "Portfolio", "Contact"];
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [navbar, setNavbar] = useState(false);
