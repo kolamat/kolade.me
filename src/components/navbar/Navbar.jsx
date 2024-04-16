@@ -13,10 +13,10 @@ const Navbar = () => {
       console.log("Clicked outside");
       const element = document.getElementById("kolade");
       //   console.log("Element:", element);
-      //   if (element && !element.contains(event.target)) {
-      //     console.log("Closing element");
-      //     setIsOpen(false);
-      //   }
+      if (element && !element.contains(event.target)) {
+        console.log("Closing element");
+        setIsOpen(false);
+      }
     };
 
     document.body.addEventListener("click", handleClickOutside);
@@ -100,7 +100,6 @@ const Navbar = () => {
         </div>
 
         <div
-          id="kolade"
           className={
             nav
               ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in duration-700"
@@ -124,7 +123,7 @@ const Navbar = () => {
             </svg>
           </h1>
           {isOpen && (
-            <ul className={`pt-4 uppercase font-[500]`}>
+            <ul id="kolade" className={`pt-4 uppercase font-[500]`}>
               <>
                 <a href="#hero">
                   <li className={`${navMobile}`}>Home</li>
