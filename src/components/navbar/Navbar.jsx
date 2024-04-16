@@ -13,10 +13,10 @@ const Navbar = () => {
       console.log("Clicked outside");
       const element = document.getElementById("kolade");
       //   console.log("Element:", element);
-      if (element && !element.contains(event.target)) {
-        console.log("Closing element");
-        setIsOpen(false);
-      }
+      //   if (element && !element.contains(event.target)) {
+      //     console.log("Closing element");
+      //     setIsOpen(false);
+      //   }
     };
 
     document.body.addEventListener("click", handleClickOutside);
