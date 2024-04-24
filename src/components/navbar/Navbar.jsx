@@ -23,6 +23,27 @@ const Navbar = () => {
 
   window.addEventListener("scroll", changeBckground);
 
+  let sections = document.querySelectorAll("section");
+  let navlinks = document.querySelectorAll("header nav a");
+
+  window.onscroll = () => {
+    sections.forEach((sec) => {
+      let top = window.scrollY;
+      let offset = sec.offsetTop - 150;
+      let height = sec.offsetHeight;
+      let id = sec.getAttribute("id");
+
+      if (top >= offset && top < offset + height) {
+        navlinks.forEach((links) => {
+          links.classList.remove("active");
+          document
+            .querySelector("header nav a[href*=" + id + "]")
+            .classList.add("active");
+        });
+      }
+    });
+  };
+
   const navDesktop =
     "p-4 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
 
@@ -52,7 +73,7 @@ const Navbar = () => {
         </div>
       </a>
 
-      <ul className={`hidden md:flex font-[300] text-md`}>
+      <ul className={`hidden md:flex font-[300] text-md`} id="active">
         <a href="#hero">
           <li className={`${navDesktop}`}>Home</li>
         </a>
