@@ -51,7 +51,7 @@ const Navbar = () => {
     "p-4 border-b border-gray-600 hover:text-[#147bf9] hover:font-extrabold hover:underline ease-in duration-200";
 
   return (
-    <nav className={navbar ? "navbar active" : "navbar"}>
+    <header className={navbar ? "navbar active" : "navbar"}>
       <a href="/" title="HomePage" className="flex">
         <div
           className={`flex items-center justify-between gap-1 sm:ml-6 md:pl-4`}
@@ -145,7 +145,7 @@ const Navbar = () => {
           </>
         </ul>
       </div>
-    </nav>
+    </header>
   );
 };
 

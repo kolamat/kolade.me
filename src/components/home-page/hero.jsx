@@ -13,7 +13,7 @@ const cvBut =
 
 const hero = () => {
   return (
-    <div id="hero" className={`${mainHero}`}>
+    <section id="hero" className={`${mainHero}`}>
       <div className={`md:mx-6 md:px-4 grid md:grid-cols-2`}>
         <div className={`flex flex-col justify-center mx-3 space-y-2`}>
           <h1 className={`font-bold text-3xl mt-4`}>Hello, it's me</h1>
@@ -213,7 +213,7 @@ const hero = () => {
           loading="lazy"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

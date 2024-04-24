@@ -31,7 +31,7 @@ export const Contact = () => {
   };
 
   return (
-    <div id="contact" className={`md:px-4 py-11 m- bg-[#000300]`}>
+    <section id="contact" className={`md:px-4 py-11 m- bg-[#000300]`}>
       <h1
         className={`md:text-[2.8rem] text-white text-center text-4xl font-bold py-2 sticky top-12`}
       >
@@ -78,7 +78,7 @@ export const Contact = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

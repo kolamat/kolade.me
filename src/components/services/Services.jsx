@@ -9,7 +9,7 @@ const container =
 
 function Services() {
   return (
-    <div
+    <section
       id="services"
       className={`w-full text-white py-[7rem] md:px-4 bg-[#000300]`}
     >
@@ -69,7 +69,7 @@ function Services() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
