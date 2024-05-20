@@ -62,7 +62,7 @@ function Portfolio() {
             </a>
           </p>
           <svg
-            className={`sectionhover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300 hover:blur-sm`}
+            className={`hover:fill-[#60a5fa] hover:stroke-[#E1986F] transition duration-300 hover:blur-sm`}
             width="250"
             height="300"
             viewBox="0 0 94 108"
