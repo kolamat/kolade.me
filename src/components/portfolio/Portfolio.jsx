@@ -15,7 +15,7 @@ function Portfolio() {
       <h1
         className={`text-white md:text-[2.8rem] text-4xl text-center font-bold py-1 sticky top-12`}
       >
-        Latests{" "}
+        Latests
         <span className="text-[#60a5fa] text-center underline">Project</span>
       </h1>
       <div
@@ -48,7 +48,7 @@ function Portfolio() {
         />
         <div className={`relative inline-block`}>
           <p
-            className={`p-5 absolute z- flex
+            className={`p-5 absolute za-30 flex
     h-full w-full items-center justify-center flex-col
     whitespace-normal text-center text-[#6a60fa]
     opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg`}
