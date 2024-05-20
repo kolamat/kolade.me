@@ -48,14 +48,14 @@ function Portfolio() {
         />
         <div className={`relative inline-block`}>
           <p
-            className={`p-5 absolute z-30 flex
+            className={`p-5 absolute z- flex
     h-full w-full items-center justify-center flex-col
     whitespace-normal text-center text-[#6a60fa]
     opacity-0 transition duration-500 hover:opacity-90 font-bold text-2xl bg-black rounded-lg`}
           >
-            <span className={`sectionunderline`}> Logo_Design</span>
+            <span className={`underline`}> Logo_Design</span>
             <a
-              className={`sectionfont-medium text-lg text-[#60a8fa] no-underline hover:underline`}
+              className={`font-medium text-lg text-[#60a8fa] no-underline hover:underline`}
               href="/"
             >
               Contact for your business-logo designs
