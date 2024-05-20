@@ -27,6 +27,8 @@ function Portfolio() {
           src={twoIphones}
           alt="Kolade"
           loading="lazy"
+          width={500}
+          height={1}
         />
         <img
           className={`${imageStyles}`}
