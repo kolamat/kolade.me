@@ -4,7 +4,7 @@ import mokLogo from "../../assets/mok-logo.PNG";
 import mokLogo2 from "../../assets/mok-logo2.PNG";
 import twoIphones from "../../assets/two-iphones.PNG";
 
-const imageStyles = "rounded-2xl w-[] h-[] lg:w-[]";
+const imageStyles = "rounded-2xl w-[310px] h-[300px] lg:w-[300px]";
 
 function Portfolio() {
   return (
@@ -21,44 +21,30 @@ function Portfolio() {
       <div
         className={`grid lg:grid-cols-3 md:grid-cols-2 mx-6 gap-2 box-border py-11 px-4 place-items-center`}
       >
-        <img
-          className={`${imageStyles} z--10`}
-          src={mokLogo}
-          alt="Kolade"
-          width={300}
-          height={1}
-        />
+        <img className={`${imageStyles} z--10`} src={mokLogo} alt="Kolade" />
         <img
           className={`${imageStyles}`}
           src={twoIphones}
           alt="Kolade"
           loading="lazy"
-          width={300}
-          height={1}
         />
         <img
           className={`${imageStyles}`}
           src={mokLogo2}
           alt="Kolade"
           loading="lazy"
-          width={300}
-          height={1}
         />
         <img
           className={`${imageStyles}`}
           src={laptopCard}
           alt="Kolade"
           loading="lazy"
-          width={300}
-          height={1}
         />
         <img
           className={`${imageStyles}`}
           src={makeUp}
           alt="Kolade"
           loading="lazy"
-          width={300}
-          height={1}
         />
         <div className={`relative inline-block`}>
           <p
