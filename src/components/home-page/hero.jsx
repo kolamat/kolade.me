@@ -116,14 +116,13 @@ const hero = () => {
             </svg>
           </h3>
           <h4 className={`text-[23px] font-bold`}>
-            I'm a{" "}
+            I'm a
             <span className={`capitalize text-[#60a5fa] underline`}>
               frontend engineer
             </span>
             <p>
-              specialized in{" "}
+              specialized in
               <span className={`text-[#60a5fa]`}>
-                {" "}
                 <Typed
                   className={`capitalize`}
                   strings={["html5", "css3", "javascript", "react", "next-Js"]}
