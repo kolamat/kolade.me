@@ -4,6 +4,7 @@ import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import kolade from "../../assets/kolade.jpg";
+import WhatsAppIcon from "../whatsapp";
 
 const mainHero = "mt-24 text-white bg-[#000300] pt-24 pb-16 px-1";
 const heroLinkStyle =
@@ -191,6 +192,15 @@ const hero = () => {
               title="Github"
             >
               <FaGithub size={20} />
+            </a>
+            <a
+              className={`${heroLinkStyle}`}
+              href="https://github.com/kolamat"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Whatsapp"
+            >
+              <WhatsAppIcon />
             </a>
           </div>
           <button className={`${cvBut}`}>
