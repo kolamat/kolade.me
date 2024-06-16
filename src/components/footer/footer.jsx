@@ -3,6 +3,8 @@ import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { SiGmail, SiMicrosoftoutlook } from "react-icons/si";
 import { HiPhone } from "react-icons/hi2";
 import WhatsAppIcon from "../whatsapp";
+import TwitterIcon from "../twitter";
+import FacebookIcon from "../facebook";
 
 // import { FaArrowUp } from "react-icons/fa";
 
@@ -91,7 +93,7 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Facebook"
                   >
-                    <FaFacebook size={30} className={`${footerLinkIcon}`} />
+                    <FacebookIcon className={`${footerLinkIcon}`} />
                   </a>
                 </p>
                 <p className="my-2">
@@ -102,12 +104,12 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Twitter"
                   >
-                    <FaXTwitter size={30} className={`${footerLinkIcon}`} />
+                    <TwitterIcon className={`${footerLinkIcon}`} />
                   </a>
                 </p>
                 <p className="my-2">
                   <a
-                    className={`${footerLinkStyles} bg-slate-500`}
+                    className={`${footerLinkStyles}`}
                     href="https://wa.me/+2348150672809"
                     target="_blank"
                     rel="noopener noreferrer"
