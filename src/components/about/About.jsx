@@ -5,7 +5,7 @@ function about() {
   return (
     <section id="about" className={`flex flex-col justify-center bg-[#000300]`}>
       <div
-        className={`grid md:flex-col md:flex flex-col-reverse md:mx-6 md:px-4 text-white py-16`}
+        className={`grid md:flex flex-row-reverse md:mx-6 md:px-4 text-white py-16`}
       >
         <div className={`flex flex-col justify-center mx-3`}>
           <h1
