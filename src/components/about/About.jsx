@@ -4,7 +4,9 @@ import kolade1 from "../../assets/kolade1.jpg";
 function about() {
   return (
     <section id="about" className={`flex flex-col justify-center bg-[#000300]`}>
-      <div className={`grid md:grid-cols-2 md:mx-6 md:px-4 text-white py-16`}>
+      <div
+        className={`grid md:flex-col md:flex flex-col-reverse md:mx-6 md:px-4 text-white py-16`}
+      >
         <div className={`flex flex-col justify-center mx-3`}>
           <h1
             className={`md:text-[2.8rem] text-4xl font-bold py-2 sm:text-left text-center sm:static sticky top-12`}
