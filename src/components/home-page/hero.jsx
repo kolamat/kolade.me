@@ -9,7 +9,7 @@ import TwitterIcon from "../twitter";
 
 const mainHero = "mt-24 text-white bg-[#000300] pt-24 pb-16 px-1";
 const heroLinkStyle =
-  "rounded-full bg-[#60a5fa] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1";
+  "rounded-full bg-[#] p-2 text-black hover:text-white hover:bg-slate-900 hover:transition-transform ease-in-out hover:bg-opacity-100 hover:translate-x-1";
 const cvBut =
   " font-bold w-[98px] rounded-lg bg-[#60a5fa] p-1 text-xl text-center text-black hover:text-white hover:bg-slate-900 transition duration-300 hover:translate-y-2";
 
