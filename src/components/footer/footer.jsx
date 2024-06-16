@@ -2,6 +2,7 @@ import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { SiGmail, SiMicrosoftoutlook } from "react-icons/si";
 import { HiPhone } from "react-icons/hi2";
+import WhatsAppIcon from "../whatsapp";
 
 // import { FaArrowUp } from "react-icons/fa";
 
@@ -102,6 +103,17 @@ function footer() {
                     title="Twitter"
                   >
                     <FaXTwitter size={30} className={`${footerLinkIcon}`} />
+                  </a>
+                </p>
+                <p className="my-2">
+                  <a
+                    className={`${footerLinkStyles} bg-slate-500`}
+                    href="https://wa.me/+2348150672809"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Whatsapp"
+                  >
+                    <WhatsAppIcon className={`${footerLinkIcon}`} />
                   </a>
                 </p>
               </div>
