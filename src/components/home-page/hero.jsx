@@ -195,7 +195,7 @@ const hero = () => {
               <FaGithub size={20} />
             </a>
             <a
-              className={`${heroLinkStyle} bg-slate-500`}
+              className={`${heroLinkStyle}`}
               href="https://wa.me/+2348150672809"
               target="_blank"
               rel="noopener noreferrer"
