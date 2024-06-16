@@ -1,5 +1,5 @@
-import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
-import { FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 import { SiGmail, SiMicrosoftoutlook } from "react-icons/si";
 import { HiPhone } from "react-icons/hi2";
 import WhatsAppIcon from "../whatsapp";
