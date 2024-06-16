@@ -194,7 +194,7 @@ const hero = () => {
               <FaGithub size={20} />
             </a>
             <a
-              className={`${heroLinkStyle}`}
+              className={`${heroLinkStyle} bg-slate-900`}
               href="https://github.com/kolamat"
               target="_blank"
               rel="noopener noreferrer"
