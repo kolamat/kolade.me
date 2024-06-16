@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import Typed from "react-typed";
-import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import kolade from "../../assets/kolade.jpg";
 import WhatsAppIcon from "../whatsapp";
+import FacebookIcon from "../facebook";
+import TwitterIcon from "../twitter";
 
 const mainHero = "mt-24 text-white bg-[#000300] pt-24 pb-16 px-1";
 const heroLinkStyle =
@@ -155,7 +156,7 @@ const hero = () => {
               rel="noopener noreferrer"
               title="Twitter"
             >
-              <FaXTwitter size={20} />
+              <TwitterIcon />
             </a>
             <a
               className={`${heroLinkStyle}`}
@@ -164,7 +165,7 @@ const hero = () => {
               rel="noopener noreferrer"
               title="Facebook"
             >
-              <FaFacebook size={20} />
+              <FacebookIcon />
             </a>
             <a
               className={`${heroLinkStyle}`}
