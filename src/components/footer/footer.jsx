@@ -1,10 +1,11 @@
-import { FaGithub, FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
 import { SiGmail, SiMicrosoftoutlook } from "react-icons/si";
 import { HiPhone } from "react-icons/hi2";
 import WhatsAppIcon from "../whatsapp";
 import TwitterIcon from "../twitter";
 import FacebookIcon from "../facebook";
+import InstagramIcon from "../insta";
+import LinkedInIcon from "../linkedin";
+import GitHubIcon from "../github";
 
 // import { FaArrowUp } from "react-icons/fa";
 
@@ -60,7 +61,7 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Github"
                   >
-                    <FaGithub size={30} className={`${footerLinkIcon}`} />
+                    <GitHubIcon className={`${footerLinkIcon}`} />
                   </a>
                 </p>
                 <p className="my-2">
@@ -71,7 +72,7 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Linkedin"
                   >
-                    <FaLinkedin size={30} className={`${footerLinkIcon}`} />
+                    <LinkedInIcon className={`${footerLinkIcon}`} />
                   </a>
                 </p>
                 <p className="my-2">
@@ -82,7 +83,7 @@ function footer() {
                     rel="noopener noreferrer"
                     title="Instagram"
                   >
-                    <FaInstagram size={30} className={`${footerLinkIcon}`} />
+                    <InstagramIcon className={`${footerLinkIcon}`} />
                   </a>
                 </p>
                 <p className="my-2">

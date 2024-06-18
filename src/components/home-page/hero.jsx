@@ -1,7 +1,5 @@
 /* eslint-disable no-unused-vars */
 import Typed from "react-typed";
-import { FaLinkedin, FaInstagram } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 import kolade from "../../assets/kolade.jpg";
 import WhatsAppIcon from "../whatsapp";
 import FacebookIcon from "../facebook";
