@@ -149,7 +149,7 @@ const hero = () => {
             following the golden rule and treating others as I would like them
             to treat Me.
           </p> */}
-          <div className={`flex gap-5 my-5`}>
+          <div className={`flex gap-2 my-5`}>
             <a
               className={`${heroLinkStyle}`}
               href="https://twitter.com/koladeMOK"
