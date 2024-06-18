@@ -6,6 +6,9 @@ import kolade from "../../assets/kolade.jpg";
 import WhatsAppIcon from "../whatsapp";
 import FacebookIcon from "../facebook";
 import TwitterIcon from "../twitter";
+import GitHubIcon from "../github";
+import LinkedInIcon from "../linkedin";
+import InstagramIcon from "../insta";
 
 const mainHero = "mt-24 text-white bg-[#000300] pt-24 pb-16 px-1";
 const heroLinkStyle =
@@ -174,7 +177,7 @@ const hero = () => {
               rel="noopener noreferrer"
               title="Instagram"
             >
-              <FaInstagram size={20} />
+              <InstagramIcon />
             </a>
             <a
               className={`${heroLinkStyle}`}
@@ -183,7 +186,7 @@ const hero = () => {
               rel="noopener noreferrer"
               title="Linkedin"
             >
-              <FaLinkedin size={20} />
+              <LinkedInIcon />
             </a>
             <a
               className={`${heroLinkStyle}`}
@@ -192,7 +195,7 @@ const hero = () => {
               rel="noopener noreferrer"
               title="Github"
             >
-              <FaGithub size={20} />
+              <GitHubIcon />
             </a>
             <a
               className={`${heroLinkStyle}`}
